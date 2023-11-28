@@ -195,8 +195,6 @@ def main(mode="command_line"):
                                   use this command: python el_reasoner.py ONTOLOGY_FILE CLASS_NAME
         All other modes can be used to test the code:
         "pizza": subsumers and its total number will be printed for pizza.owl ontology for '"Margherita"' class name
-        "sushi": subsumers and its total number will be printed for sushi_restaurant.owl ontology for 'CaterpillarRoll'
-                 class name
         "lecture_example": intermediate steps of the algorithm and class name, subsumers and its total number will
                            be printed for an example from Lecture 5 (slide 13)
     """
@@ -212,13 +210,10 @@ def main(mode="command_line"):
         ont_file = args.ontology_file
         cl_name = args.class_name
     elif mode == "pizza":
-        ont_file = "pizza.owl"
+        ont_file = "TestOntologies/pizza.owl"
         cl_name = '"Margherita"'
-    elif mode == "sushi":
-        ont_file = "sushi_restaurant.owl"
-        cl_name = "CaterpillarRoll"
     elif mode == "lecture_example":
-        ont_file = "pizza.owl"
+        ont_file = "TestOntologies/pizza.owl"
         cl_name = "A"
 
     # Compute subsumers
@@ -236,6 +231,6 @@ def main(mode="command_line"):
 
 
 if __name__ == "__main__":
-    # mode = "pizza" / "sushi" / "lecture_example" / "command_line"
-    # command example: python el_reasoner.py sushi_restaurant.owl CaterpillarRoll
+    # mode = "pizza" / "lecture_example" / "command_line"
+    # command example: python el_reasoner.py TestOntologies/amino-acid.amino-acid-ontology.2.owl.xml I
     main(mode="command_line")
