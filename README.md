@@ -1,1 +1,1 @@
-# KRDescriptionLogics
+# Khowledge Representation: Description Logics
