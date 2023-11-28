@@ -1,0 +1,5753 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.biomodels.net/kisao/KISAO#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.biomodels.net/kisao/KISAO#">
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="KISAO_0000333"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="KISAO_0000454"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="KISAO_0000211"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="KISAO_0000332"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="KISAO_0000453"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="KISAO_0000335"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="KISAO_0000334"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="KISAO_0000455"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="KISAO_0000450"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="KISAO_0000331"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="KISAO_0000452"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="KISAO_0000330"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="KISAO_0000451"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="KISAO_0000399"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="KISAO_0000219"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="KISAO_0000251"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="KISAO_0000337"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="KISAO_0000216"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="KISAO_0000336"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="KISAO_0000339"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="KISAO_0000338"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="KISAO_0000102"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="KISAO_0000223"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="KISAO_0000343"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="KISAO_0000104"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="KISAO_0000346"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="KISAO_0000467"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="KISAO_0000103"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="KISAO_0000345"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="KISAO_0000340"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="KISAO_0000100"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="KISAO_0000342"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="KISAO_0000341"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="KISAO_0000220"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="KISAO_0000348"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="KISAO_0000469"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="KISAO_0000106"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="KISAO_0000347"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="KISAO_0000105"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="KISAO_0000468"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="KISAO_0000108"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="KISAO_0000349"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="KISAO_0000228"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="KISAO_0000107"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="KISAO_0000470"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="KISAO_0000355"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="KISAO_0000234"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="KISAO_0000476"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="KISAO_0000354"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="KISAO_0000475"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="KISAO_0000233"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="KISAO_0000478"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="KISAO_0000357"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="KISAO_0000236"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="KISAO_0000356"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="KISAO_0000235"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="KISAO_0000477"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="KISAO_0000472"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="KISAO_0000351"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="KISAO_0000230"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="KISAO_0000350"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="KISAO_0000471"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="KISAO_0000353"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="KISAO_0000232"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="KISAO_0000473"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="KISAO_0000352"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="KISAO_0000231"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="KISAO_0000275"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="KISAO_0000238"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="KISAO_0000358"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="KISAO_0000479"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="KISAO_0000237"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="KISAO_0000239"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="KISAO_0000481"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="KISAO_0000480"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="KISAO_0000487"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="KISAO_0000366"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="KISAO_0000003"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="KISAO_0000365"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="KISAO_0000486"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="KISAO_0000244"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="KISAO_0000367"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="KISAO_0000488"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="KISAO_0000362"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="KISAO_0000483"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="KISAO_0000241"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="KISAO_0000240"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="KISAO_0000482"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="KISAO_0000364"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="KISAO_0000243"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="KISAO_0000485"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="KISAO_0000363"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="KISAO_0000484"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="KISAO_0000242"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="KISAO_0000000"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="KISAO_0000249"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="KISAO_0000369"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="KISAO_0000248"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="KISAO_0000492"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="KISAO_0000371"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="KISAO_0000491"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="KISAO_0000370"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="KISAO_0000256"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="KISAO_0000377"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="KISAO_0000255"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="KISAO_0000376"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="KISAO_0000497"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="KISAO_0000258"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="KISAO_0000379"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="KISAO_0000257"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="KISAO_0000015"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="KISAO_0000378"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="KISAO_0000494"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="KISAO_0000252"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="KISAO_0000373"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="KISAO_0000493"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="KISAO_0000372"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="KISAO_0000496"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="KISAO_0000254"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="KISAO_0000375"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="KISAO_0000253"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="KISAO_0000495"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="KISAO_0000374"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="KISAO_0000017"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="KISAO_0000019"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="KISAO_0000380"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="KISAO_0000261"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="KISAO_0000382"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="KISAO_0000260"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="KISAO_0000381"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="KISAO_0000388"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="KISAO_0000027"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="KISAO_0000389"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="KISAO_0000263"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="KISAO_0000021"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="KISAO_0000384"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="KISAO_0000020"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="KISAO_0000383"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="KISAO_0000386"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="KISAO_0000264"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="KISAO_0000022"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="KISAO_0000029"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="KISAO_0000028"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="KISAO_0000030"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="KISAO_0000393"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="KISAO_0000392"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="KISAO_0000278"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="KISAO_0000398"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="KISAO_0000038"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="KISAO_0000279"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="KISAO_0000274"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="KISAO_0000032"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="KISAO_0000395"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="KISAO_0000273"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="KISAO_0000394"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="KISAO_0000031"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="KISAO_0000276"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="KISAO_0000397"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="KISAO_0000033"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="KISAO_0000396"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="KISAO_0000039"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="KISAO_0000281"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="KISAO_0000280"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="KISAO_0000283"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="KISAO_0000040"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="KISAO_0000282"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="KISAO_0000289"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="KISAO_0000288"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="KISAO_0000046"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="KISAO_0000048"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="KISAO_0000285"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="KISAO_0000287"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="KISAO_0000045"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="KISAO_0000286"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="KISAO_0000051"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="KISAO_0000290"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="KISAO_0000058"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="KISAO_0000299"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="KISAO_0000057"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="KISAO_0000296"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="KISAO_0000056"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="KISAO_0000297"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="KISAO_0000068"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="KISAO_0000064"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="KISAO_0000071"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="KISAO_0000074"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="KISAO_0000076"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="KISAO_0000075"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="KISAO_0000082"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="KISAO_0000084"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="KISAO_0000081"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="KISAO_0000087"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="KISAO_0000086"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="KISAO_0000089"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="KISAO_0000088"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="KISAO_0000407"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="KISAO_0000409"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="KISAO_0000408"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="KISAO_0000403"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="KISAO_0000405"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="KISAO_0000404"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="KISAO_0000094"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="KISAO_0000093"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="KISAO_0000095"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="KISAO_0000090"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="KISAO_0000091"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="KISAO_0000410"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="KISAO_0000412"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="KISAO_0000411"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="KISAO_0000359"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="KISAO_0000098"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="KISAO_0000097"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="KISAO_0000099"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="KISAO_0000418"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="KISAO_0000417"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="KISAO_0000419"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="KISAO_0000413"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="KISAO_0000416"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="KISAO_0000415"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="KISAO_0000361"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="KISAO_0000360"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="KISAO_0000421"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="KISAO_0000420"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="KISAO_0000302"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="KISAO_0000423"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="KISAO_0000301"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="KISAO_0000422"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="KISAO_0000246"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="KISAO_0000245"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="KISAO_0000308"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="KISAO_0000429"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="KISAO_0000307"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="KISAO_0000428"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="KISAO_0000309"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="KISAO_0000304"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="KISAO_0000425"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="KISAO_0000303"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="KISAO_0000424"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="KISAO_0000306"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="KISAO_0000427"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="KISAO_0000305"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="KISAO_0000250"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="KISAO_0000311"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="KISAO_0000432"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="KISAO_0000310"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="KISAO_0000434"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="KISAO_0000259"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="KISAO_0000433"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="KISAO_0000430"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="KISAO_0000319"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="KISAO_0000318"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="KISAO_0000315"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="KISAO_0000436"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="KISAO_0000314"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="KISAO_0000435"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="KISAO_0000317"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="KISAO_0000316"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="KISAO_0000437"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="KISAO_0000322"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="KISAO_0000201"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="KISAO_0000321"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="KISAO_0000324"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="KISAO_0000203"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="KISAO_0000323"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="KISAO_0000268"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="KISAO_0000320"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="KISAO_0000209"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="KISAO_0000329"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="KISAO_0000326"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="KISAO_0000447"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="KISAO_0000205"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="KISAO_0000325"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="KISAO_0000204"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="KISAO_0000328"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="KISAO_0000449"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="KISAO_0000327"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="KISAO_0000448"/>
+    </Declaration>
+    <EquivalentClasses>
+        <Class IRI="KISAO_0000352"/>
+        <ObjectIntersectionOf>
+            <Class IRI="KISAO_0000000"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="KISAO_0000245"/>
+                <Class IRI="KISAO_0000322"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="KISAO_0000435"/>
+        <ObjectIntersectionOf>
+            <Class IRI="KISAO_0000302"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="KISAO_0000360"/>
+                <ObjectIntersectionOf>
+                    <Class IRI="KISAO_0000064"/>
+                    <DataHasValue>
+                        <DataProperty IRI="KISAO_0000275"/>
+                        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">4</Literal>
+                    </DataHasValue>
+                </ObjectIntersectionOf>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="KISAO_0000360"/>
+                <ObjectIntersectionOf>
+                    <Class IRI="KISAO_0000064"/>
+                    <DataHasValue>
+                        <DataProperty IRI="KISAO_0000275"/>
+                        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">5</Literal>
+                    </DataHasValue>
+                </ObjectIntersectionOf>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000245"/>
+            <Class IRI="KISAO_0000322"/>
+        </ObjectSomeValuesFrom>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000246"/>
+            <Class IRI="KISAO_0000000"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <SubClassOf>
+        <Class IRI="KISAO_0000003"/>
+        <Class IRI="KISAO_0000333"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000003"/>
+        <ObjectComplementOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="KISAO_0000245"/>
+                <Class IRI="KISAO_0000102"/>
+            </ObjectSomeValuesFrom>
+        </ObjectComplementOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000003"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000245"/>
+            <Class IRI="KISAO_0000236"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000015"/>
+        <Class IRI="KISAO_0000241"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000015"/>
+        <ObjectComplementOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="KISAO_0000245"/>
+                <Class IRI="KISAO_0000102"/>
+            </ObjectSomeValuesFrom>
+        </ObjectComplementOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000015"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000245"/>
+            <Class IRI="KISAO_0000236"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000017"/>
+        <Class IRI="KISAO_0000363"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000017"/>
+        <ObjectComplementOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="KISAO_0000245"/>
+                <Class IRI="KISAO_0000102"/>
+            </ObjectSomeValuesFrom>
+        </ObjectComplementOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000017"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000245"/>
+            <Class IRI="KISAO_0000104"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000017"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000245"/>
+            <Class IRI="KISAO_0000107"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000019"/>
+        <Class IRI="KISAO_0000433"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000019"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000359"/>
+            <Class IRI="KISAO_0000020"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000019"/>
+        <ObjectMaxCardinality cardinality="1">
+            <ObjectProperty IRI="KISAO_0000259"/>
+            <Class IRI="KISAO_0000209"/>
+        </ObjectMaxCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000019"/>
+        <ObjectMaxCardinality cardinality="1">
+            <ObjectProperty IRI="KISAO_0000259"/>
+            <Class IRI="KISAO_0000211"/>
+        </ObjectMaxCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000019"/>
+        <ObjectMaxCardinality cardinality="1">
+            <ObjectProperty IRI="KISAO_0000259"/>
+            <Class IRI="KISAO_0000415"/>
+        </ObjectMaxCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000019"/>
+        <ObjectMaxCardinality cardinality="1">
+            <ObjectProperty IRI="KISAO_0000259"/>
+            <Class IRI="KISAO_0000475"/>
+        </ObjectMaxCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000019"/>
+        <ObjectMaxCardinality cardinality="1">
+            <ObjectProperty IRI="KISAO_0000259"/>
+            <Class IRI="KISAO_0000476"/>
+        </ObjectMaxCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000019"/>
+        <ObjectMaxCardinality cardinality="1">
+            <ObjectProperty IRI="KISAO_0000259"/>
+            <Class IRI="KISAO_0000477"/>
+        </ObjectMaxCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000019"/>
+        <ObjectMaxCardinality cardinality="1">
+            <ObjectProperty IRI="KISAO_0000259"/>
+            <Class IRI="KISAO_0000478"/>
+        </ObjectMaxCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000019"/>
+        <ObjectMaxCardinality cardinality="1">
+            <ObjectProperty IRI="KISAO_0000259"/>
+            <Class IRI="KISAO_0000479"/>
+        </ObjectMaxCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000019"/>
+        <ObjectMaxCardinality cardinality="1">
+            <ObjectProperty IRI="KISAO_0000259"/>
+            <Class IRI="KISAO_0000480"/>
+        </ObjectMaxCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000019"/>
+        <ObjectMaxCardinality cardinality="1">
+            <ObjectProperty IRI="KISAO_0000259"/>
+            <Class IRI="KISAO_0000481"/>
+        </ObjectMaxCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000020"/>
+        <Class IRI="KISAO_0000433"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000020"/>
+        <ObjectUnionOf>
+            <ObjectIntersectionOf>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="KISAO_0000360"/>
+                    <Class IRI="KISAO_0000288"/>
+                </ObjectSomeValuesFrom>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="KISAO_0000360"/>
+                    <Class IRI="KISAO_0000353"/>
+                </ObjectSomeValuesFrom>
+            </ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="KISAO_0000360"/>
+                <Class IRI="KISAO_0000280"/>
+            </ObjectSomeValuesFrom>
+        </ObjectUnionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000020"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000359"/>
+            <Class IRI="KISAO_0000019"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000021"/>
+        <Class IRI="KISAO_0000363"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000021"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000245"/>
+            <Class IRI="KISAO_0000102"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000021"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000245"/>
+            <Class IRI="KISAO_0000104"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000021"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000359"/>
+            <Class IRI="KISAO_0000264"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000021"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000360"/>
+            <Class IRI="KISAO_0000017"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000022"/>
+        <Class IRI="KISAO_0000095"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000022"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000360"/>
+            <Class IRI="KISAO_0000027"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000022"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000360"/>
+            <Class IRI="KISAO_0000029"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000027"/>
+        <Class IRI="KISAO_0000333"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000027"/>
+        <ObjectComplementOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="KISAO_0000245"/>
+                <Class IRI="KISAO_0000102"/>
+            </ObjectSomeValuesFrom>
+        </ObjectComplementOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000027"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000245"/>
+            <Class IRI="KISAO_0000236"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000027"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000359"/>
+            <Class IRI="KISAO_0000015"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000028"/>
+        <Class IRI="KISAO_0000333"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000028"/>
+        <ObjectComplementOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="KISAO_0000245"/>
+                <Class IRI="KISAO_0000102"/>
+            </ObjectSomeValuesFrom>
+        </ObjectComplementOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000028"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000245"/>
+            <Class IRI="KISAO_0000237"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000029"/>
+        <Class IRI="KISAO_0000241"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000029"/>
+        <ObjectComplementOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="KISAO_0000245"/>
+                <Class IRI="KISAO_0000102"/>
+            </ObjectSomeValuesFrom>
+        </ObjectComplementOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000029"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000245"/>
+            <Class IRI="KISAO_0000236"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000029"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000359"/>
+            <Class IRI="KISAO_0000051"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000030"/>
+        <Class IRI="KISAO_0000261"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000030"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000245"/>
+            <Class IRI="KISAO_0000239"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000031"/>
+        <Class IRI="KISAO_0000261"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000031"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000245"/>
+            <Class IRI="KISAO_0000240"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000032"/>
+        <Class IRI="KISAO_0000064"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000032"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000245"/>
+            <Class IRI="KISAO_0000108"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000032"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000245"/>
+            <Class IRI="KISAO_0000239"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000032"/>
+        <DataHasValue>
+            <DataProperty IRI="KISAO_0000275"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">4</Literal>
+        </DataHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000033"/>
+        <Class IRI="KISAO_0000064"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000033"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000245"/>
+            <Class IRI="KISAO_0000108"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000033"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000245"/>
+            <Class IRI="KISAO_0000240"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000038"/>
+        <Class IRI="KISAO_0000333"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000038"/>
+        <ObjectComplementOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="KISAO_0000245"/>
+                <Class IRI="KISAO_0000102"/>
+            </ObjectSomeValuesFrom>
+        </ObjectComplementOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000038"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000245"/>
+            <Class IRI="KISAO_0000236"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000039"/>
+        <Class IRI="KISAO_0000333"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000039"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000245"/>
+            <Class IRI="KISAO_0000237"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000039"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="KISAO_0000259"/>
+            <Class IRI="KISAO_0000228"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000040"/>
+        <Class IRI="KISAO_0000039"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000040"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000245"/>
+            <Class IRI="KISAO_0000239"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000045"/>
+        <Class IRI="KISAO_0000039"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000045"/>
+        <ObjectComplementOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="KISAO_0000245"/>
+                <Class IRI="KISAO_0000102"/>
+            </ObjectSomeValuesFrom>
+        </ObjectComplementOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000045"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000245"/>
+            <Class IRI="KISAO_0000240"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000045"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="KISAO_0000259"/>
+            <Class IRI="KISAO_0000248"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000046"/>
+        <Class IRI="KISAO_0000039"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000046"/>
+        <ObjectComplementOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="KISAO_0000245"/>
+                <Class IRI="KISAO_0000102"/>
+            </ObjectSomeValuesFrom>
+        </ObjectComplementOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000046"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000245"/>
+            <Class IRI="KISAO_0000240"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000048"/>
+        <Class IRI="KISAO_0000039"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000048"/>
+        <ObjectComplementOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="KISAO_0000245"/>
+                <Class IRI="KISAO_0000102"/>
+            </ObjectSomeValuesFrom>
+        </ObjectComplementOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000048"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000245"/>
+            <Class IRI="KISAO_0000239"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000048"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000245"/>
+            <Class IRI="KISAO_0000240"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000051"/>
+        <Class IRI="KISAO_0000241"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000051"/>
+        <ObjectComplementOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="KISAO_0000245"/>
+                <Class IRI="KISAO_0000102"/>
+            </ObjectSomeValuesFrom>
+        </ObjectComplementOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000051"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000359"/>
+            <Class IRI="KISAO_0000029"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000056"/>
+        <Class IRI="KISAO_0000000"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000056"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000245"/>
+            <Class IRI="KISAO_0000104"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000057"/>
+        <Class IRI="KISAO_0000056"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000057"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000245"/>
+            <Class IRI="KISAO_0000102"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000057"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000245"/>
+            <Class IRI="KISAO_0000105"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000057"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000245"/>
+            <Class IRI="KISAO_0000108"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000057"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="KISAO_0000259"/>
+            <Class IRI="KISAO_0000254"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000057"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="KISAO_0000259"/>
+            <Class IRI="KISAO_0000257"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000057"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="KISAO_0000259"/>
+            <Class IRI="KISAO_0000258"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000057"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="KISAO_0000259"/>
+            <Class IRI="KISAO_0000260"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000058"/>
+        <Class IRI="KISAO_0000056"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000058"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000245"/>
+            <Class IRI="KISAO_0000102"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000058"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000245"/>
+            <Class IRI="KISAO_0000105"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000058"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000245"/>
+            <Class IRI="KISAO_0000107"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000058"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000245"/>
+            <Class IRI="KISAO_0000237"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000064"/>
+        <Class IRI="KISAO_0000377"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000064"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000245"/>
+            <Class IRI="KISAO_0000103"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000064"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000245"/>
+            <Class IRI="KISAO_0000108"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000064"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000245"/>
+            <Class IRI="KISAO_0000374"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000064"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000361"/>
+            <Class IRI="KISAO_0000261"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000064"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="KISAO_0000275"/>
+            <Datatype abbreviatedIRI="xsd:integer"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000068"/>
+        <Class IRI="KISAO_0000264"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000068"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000245"/>
+            <Class IRI="KISAO_0000103"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000071"/>
+        <Class IRI="KISAO_0000094"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000071"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000245"/>
+            <Class IRI="KISAO_0000239"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000071"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000360"/>
+            <Class IRI="KISAO_0000288"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000071"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000360"/>
+            <Class IRI="KISAO_0000364"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000074"/>
+        <Class IRI="KISAO_0000039"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000074"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000359"/>
+            <Class IRI="KISAO_0000095"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000074"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="KISAO_0000259"/>
+            <Class IRI="KISAO_0000253"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000075"/>
+        <Class IRI="KISAO_0000241"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000075"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000245"/>
+            <Class IRI="KISAO_0000102"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000075"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000360"/>
+            <Class IRI="KISAO_0000029"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000075"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000360"/>
+            <Class IRI="KISAO_0000334"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000076"/>
+        <Class IRI="KISAO_0000095"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000081"/>
+        <Class IRI="KISAO_0000039"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000081"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000245"/>
+            <Class IRI="KISAO_0000239"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000082"/>
+        <Class IRI="KISAO_0000333"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000082"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000245"/>
+            <Class IRI="KISAO_0000237"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000082"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000359"/>
+            <Class IRI="KISAO_0000039"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000084"/>
+        <Class IRI="KISAO_0000039"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000084"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000245"/>
+            <Class IRI="KISAO_0000239"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000084"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000359"/>
+            <Class IRI="KISAO_0000040"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000084"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="KISAO_0000259"/>
+            <Class IRI="KISAO_0000249"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000086"/>
+        <Class IRI="KISAO_0000435"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000087"/>
+        <Class IRI="KISAO_0000435"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000088"/>
+        <Class IRI="KISAO_0000094"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000088"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000359"/>
+            <Class IRI="KISAO_0000071"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000088"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000360"/>
+            <Class IRI="KISAO_0000288"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000088"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000360"/>
+            <Class IRI="KISAO_0000289"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000088"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="KISAO_0000259"/>
+            <Class IRI="KISAO_0000209"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000088"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="KISAO_0000259"/>
+            <Class IRI="KISAO_0000211"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000088"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="KISAO_0000259"/>
+            <Class IRI="KISAO_0000219"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000088"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="KISAO_0000259"/>
+            <Class IRI="KISAO_0000220"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000089"/>
+        <Class IRI="KISAO_0000094"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000089"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000359"/>
+            <Class IRI="KISAO_0000088"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000090"/>
+        <Class IRI="KISAO_0000094"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000090"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000245"/>
+            <Class IRI="KISAO_0000240"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000090"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000359"/>
+            <Class IRI="KISAO_0000071"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000091"/>
+        <Class IRI="KISAO_0000094"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000091"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000245"/>
+            <Class IRI="KISAO_0000240"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000091"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000359"/>
+            <Class IRI="KISAO_0000071"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000093"/>
+        <Class IRI="KISAO_0000094"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000093"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000359"/>
+            <Class IRI="KISAO_0000071"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000093"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000360"/>
+            <Class IRI="KISAO_0000354"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000094"/>
+        <Class IRI="KISAO_0000000"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000094"/>
+        <ObjectComplementOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="KISAO_0000245"/>
+                <Class IRI="KISAO_0000102"/>
+            </ObjectSomeValuesFrom>
+        </ObjectComplementOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000094"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000245"/>
+            <Class IRI="KISAO_0000103"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000094"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000245"/>
+            <Class IRI="KISAO_0000106"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000094"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000245"/>
+            <Class IRI="KISAO_0000107"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000094"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000245"/>
+            <Class IRI="KISAO_0000374"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000095"/>
+        <Class IRI="KISAO_0000335"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000095"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000245"/>
+            <Class IRI="KISAO_0000102"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000098"/>
+        <Class IRI="KISAO_0000097"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000099"/>
+        <Class IRI="KISAO_0000097"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000100"/>
+        <Class IRI="KISAO_0000097"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000102"/>
+        <Class IRI="KISAO_0000097"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000103"/>
+        <Class IRI="KISAO_0000099"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000104"/>
+        <Class IRI="KISAO_0000099"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000105"/>
+        <Class IRI="KISAO_0000098"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000106"/>
+        <Class IRI="KISAO_0000098"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000107"/>
+        <Class IRI="KISAO_0000100"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000108"/>
+        <Class IRI="KISAO_0000100"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000201"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000250"/>
+            <Class IRI="KISAO_0000000"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000203"/>
+        <Class IRI="KISAO_0000252"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000203"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="KISAO_0000250"/>
+            <Class IRI="KISAO_0000231"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000203"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="KISAO_0000251"/>
+            <Datatype abbreviatedIRI="xsd:double"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000204"/>
+        <Class IRI="KISAO_0000252"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000204"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="KISAO_0000250"/>
+            <Class IRI="KISAO_0000231"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000204"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="KISAO_0000251"/>
+            <Datatype abbreviatedIRI="xsd:double"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000205"/>
+        <Class IRI="KISAO_0000252"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000205"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="KISAO_0000250"/>
+            <ObjectIntersectionOf>
+                <Class IRI="KISAO_0000000"/>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="KISAO_0000245"/>
+                    <Class IRI="KISAO_0000322"/>
+                </ObjectSomeValuesFrom>
+            </ObjectIntersectionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000205"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="KISAO_0000251"/>
+            <Datatype abbreviatedIRI="xsd:integer"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000209"/>
+        <Class IRI="KISAO_0000242"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000209"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="KISAO_0000250"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="KISAO_0000245"/>
+                <Class IRI="KISAO_0000237"/>
+            </ObjectSomeValuesFrom>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000209"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="KISAO_0000251"/>
+            <Datatype abbreviatedIRI="xsd:double"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000211"/>
+        <Class IRI="KISAO_0000242"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000211"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="KISAO_0000250"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="KISAO_0000245"/>
+                <Class IRI="KISAO_0000237"/>
+            </ObjectSomeValuesFrom>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000211"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="KISAO_0000251"/>
+            <Datatype abbreviatedIRI="xsd:double"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000216"/>
+        <Class IRI="KISAO_0000243"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000216"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000250"/>
+            <Class IRI="KISAO_0000088"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000216"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="KISAO_0000251"/>
+            <Datatype abbreviatedIRI="xsd:boolean"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000219"/>
+        <Class IRI="KISAO_0000484"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000219"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="KISAO_0000251"/>
+            <Datatype abbreviatedIRI="xsd:integer"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000220"/>
+        <Class IRI="KISAO_0000484"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000220"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="KISAO_0000251"/>
+            <Datatype abbreviatedIRI="xsd:integer"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000223"/>
+        <Class IRI="KISAO_0000244"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000223"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000250"/>
+            <ObjectIntersectionOf>
+                <Class IRI="KISAO_0000000"/>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="KISAO_0000245"/>
+                    <Class IRI="KISAO_0000375"/>
+                </ObjectSomeValuesFrom>
+            </ObjectIntersectionOf>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000223"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="KISAO_0000251"/>
+            <Datatype abbreviatedIRI="xsd:integer"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000228"/>
+        <Class IRI="KISAO_0000242"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000228"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="KISAO_0000250"/>
+            <Class IRI="KISAO_0000039"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000228"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="KISAO_0000251"/>
+            <Datatype abbreviatedIRI="xsd:double"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000230"/>
+        <Class IRI="KISAO_0000243"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000230"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="KISAO_0000250"/>
+            <ObjectIntersectionOf>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="KISAO_0000246"/>
+                    <Class IRI="KISAO_0000029"/>
+                </ObjectSomeValuesFrom>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="KISAO_0000246"/>
+                    <Class IRI="KISAO_0000039"/>
+                </ObjectSomeValuesFrom>
+            </ObjectIntersectionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000230"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="KISAO_0000251"/>
+            <Datatype abbreviatedIRI="xsd:integer"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000231"/>
+        <Class IRI="KISAO_0000352"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000231"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000245"/>
+            <Class IRI="KISAO_0000103"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000231"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000245"/>
+            <Class IRI="KISAO_0000104"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000231"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000245"/>
+            <Class IRI="KISAO_0000322"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000231"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000246"/>
+            <Class IRI="KISAO_0000027"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000231"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000246"/>
+            <ObjectIntersectionOf>
+                <Class IRI="KISAO_0000000"/>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="KISAO_0000245"/>
+                    <Class IRI="KISAO_0000374"/>
+                </ObjectSomeValuesFrom>
+            </ObjectIntersectionOf>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000231"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="KISAO_0000259"/>
+            <Class IRI="KISAO_0000203"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000231"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="KISAO_0000259"/>
+            <Class IRI="KISAO_0000204"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000232"/>
+        <Class IRI="KISAO_0000094"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000232"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000245"/>
+            <Class IRI="KISAO_0000240"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000232"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000359"/>
+            <Class IRI="KISAO_0000071"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000233"/>
+        <Class IRI="KISAO_0000094"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000233"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000359"/>
+            <Class IRI="KISAO_0000071"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000234"/>
+        <Class IRI="KISAO_0000094"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000234"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000359"/>
+            <Class IRI="KISAO_0000071"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000234"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000359"/>
+            <Class IRI="KISAO_0000093"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000234"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000360"/>
+            <Class IRI="KISAO_0000354"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000235"/>
+        <Class IRI="KISAO_0000097"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000236"/>
+        <Class IRI="KISAO_0000235"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000237"/>
+        <Class IRI="KISAO_0000235"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000238"/>
+        <Class IRI="KISAO_0000097"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000239"/>
+        <Class IRI="KISAO_0000238"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000240"/>
+        <Class IRI="KISAO_0000238"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000241"/>
+        <Class IRI="KISAO_0000319"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000241"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000245"/>
+            <Class IRI="KISAO_0000104"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000241"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000245"/>
+            <Class IRI="KISAO_0000105"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000241"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000245"/>
+            <Class IRI="KISAO_0000107"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000242"/>
+        <Class IRI="KISAO_0000201"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000243"/>
+        <Class IRI="KISAO_0000201"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000243"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="KISAO_0000250"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="KISAO_0000360"/>
+                <Class IRI="KISAO_0000000"/>
+            </ObjectSomeValuesFrom>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000244"/>
+        <Class IRI="KISAO_0000201"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000248"/>
+        <Class IRI="KISAO_0000252"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000248"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="KISAO_0000250"/>
+            <Class IRI="KISAO_0000045"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000248"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="KISAO_0000251"/>
+            <Datatype abbreviatedIRI="xsd:double"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000249"/>
+        <Class IRI="KISAO_0000252"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000249"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="KISAO_0000250"/>
+            <Class IRI="KISAO_0000084"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000249"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="KISAO_0000251"/>
+            <Datatype abbreviatedIRI="xsd:integer"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000252"/>
+        <Class IRI="KISAO_0000201"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000253"/>
+        <Class IRI="KISAO_0000244"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000253"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="KISAO_0000250"/>
+            <Class IRI="KISAO_0000074"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000253"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="KISAO_0000251"/>
+            <Datatype abbreviatedIRI="xsd:double"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000254"/>
+        <Class IRI="KISAO_0000242"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000254"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="KISAO_0000250"/>
+            <Class IRI="KISAO_0000057"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000254"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="KISAO_0000251"/>
+            <Datatype abbreviatedIRI="xsd:integer"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000255"/>
+        <Class IRI="KISAO_0000260"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000255"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="KISAO_0000251"/>
+            <Datatype abbreviatedIRI="xsd:integer"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000256"/>
+        <Class IRI="KISAO_0000260"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000256"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="KISAO_0000251"/>
+            <Datatype abbreviatedIRI="xsd:double"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000257"/>
+        <Class IRI="KISAO_0000252"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000257"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="KISAO_0000250"/>
+            <Class IRI="KISAO_0000057"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000257"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="KISAO_0000251"/>
+            <Datatype abbreviatedIRI="xsd:double"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000258"/>
+        <Class IRI="KISAO_0000252"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000258"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="KISAO_0000250"/>
+            <Class IRI="KISAO_0000057"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000258"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="KISAO_0000251"/>
+            <Datatype abbreviatedIRI="xsd:double"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000260"/>
+        <Class IRI="KISAO_0000252"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000260"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="KISAO_0000250"/>
+            <Class IRI="KISAO_0000057"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000261"/>
+        <Class IRI="KISAO_0000377"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000261"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000245"/>
+            <Class IRI="KISAO_0000103"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000261"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000245"/>
+            <Class IRI="KISAO_0000106"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000261"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000245"/>
+            <Class IRI="KISAO_0000108"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000261"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000245"/>
+            <Class IRI="KISAO_0000374"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000261"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000245"/>
+            <Class IRI="KISAO_0000376"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000261"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000359"/>
+            <ObjectIntersectionOf>
+                <Class IRI="KISAO_0000064"/>
+                <DataHasValue>
+                    <DataProperty IRI="KISAO_0000275"/>
+                    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+                </DataHasValue>
+            </ObjectIntersectionOf>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000263"/>
+        <Class IRI="KISAO_0000017"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000263"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000245"/>
+            <Class IRI="KISAO_0000236"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000263"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000361"/>
+            <Class IRI="KISAO_0000029"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000264"/>
+        <Class IRI="KISAO_0000363"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000264"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000245"/>
+            <Class IRI="KISAO_0000102"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000264"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000245"/>
+            <Class IRI="KISAO_0000108"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000273"/>
+        <Class IRI="KISAO_0000000"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000273"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000245"/>
+            <Class IRI="KISAO_0000102"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000273"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000245"/>
+            <Class IRI="KISAO_0000107"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000274"/>
+        <Class IRI="KISAO_0000319"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000274"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000245"/>
+            <Class IRI="KISAO_0000102"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000274"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000245"/>
+            <Class IRI="KISAO_0000104"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000274"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000245"/>
+            <Class IRI="KISAO_0000107"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000274"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000245"/>
+            <Class IRI="KISAO_0000236"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000276"/>
+        <Class IRI="KISAO_0000064"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000276"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000245"/>
+            <Class IRI="KISAO_0000108"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000276"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000245"/>
+            <Class IRI="KISAO_0000239"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000276"/>
+        <DataHasValue>
+            <DataProperty IRI="KISAO_0000275"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">4</Literal>
+        </DataHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000278"/>
+        <Class IRI="KISAO_0000319"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000278"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000245"/>
+            <Class IRI="KISAO_0000102"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000278"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000245"/>
+            <Class IRI="KISAO_0000104"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000278"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000245"/>
+            <Class IRI="KISAO_0000108"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000278"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000245"/>
+            <Class IRI="KISAO_0000237"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000279"/>
+        <Class IRI="KISAO_0000289"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000279"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000245"/>
+            <Class IRI="KISAO_0000239"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000280"/>
+        <Class IRI="KISAO_0000289"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000280"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000245"/>
+            <Class IRI="KISAO_0000240"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000281"/>
+        <Class IRI="KISAO_0000000"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000281"/>
+        <ObjectComplementOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="KISAO_0000245"/>
+                <Class IRI="KISAO_0000102"/>
+            </ObjectSomeValuesFrom>
+        </ObjectComplementOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000281"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000245"/>
+            <Class IRI="KISAO_0000106"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000281"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000245"/>
+            <Class IRI="KISAO_0000108"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000281"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000245"/>
+            <Class IRI="KISAO_0000237"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000282"/>
+        <Class IRI="KISAO_0000408"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000282"/>
+        <ObjectComplementOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="KISAO_0000245"/>
+                <Class IRI="KISAO_0000376"/>
+            </ObjectSomeValuesFrom>
+        </ObjectComplementOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000282"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000245"/>
+            <Class IRI="KISAO_0000373"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000282"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000360"/>
+            <Class IRI="KISAO_0000354"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000283"/>
+        <Class IRI="KISAO_0000432"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000283"/>
+        <ObjectComplementOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="KISAO_0000245"/>
+                <Class IRI="KISAO_0000376"/>
+            </ObjectSomeValuesFrom>
+        </ObjectComplementOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000283"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000245"/>
+            <Class IRI="KISAO_0000373"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000283"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000359"/>
+            <Class IRI="KISAO_0000355"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000283"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000360"/>
+            <Class IRI="KISAO_0000288"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000283"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000360"/>
+            <Class IRI="KISAO_0000354"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000283"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000360"/>
+            <Class IRI="KISAO_0000386"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000283"/>
+        <ObjectMaxCardinality cardinality="1">
+            <ObjectProperty IRI="KISAO_0000259"/>
+            <Class IRI="KISAO_0000477"/>
+        </ObjectMaxCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000283"/>
+        <ObjectMaxCardinality cardinality="1">
+            <ObjectProperty IRI="KISAO_0000259"/>
+            <Class IRI="KISAO_0000479"/>
+        </ObjectMaxCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000283"/>
+        <ObjectMaxCardinality cardinality="1">
+            <ObjectProperty IRI="KISAO_0000259"/>
+            <Class IRI="KISAO_0000480"/>
+        </ObjectMaxCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000283"/>
+        <ObjectMaxCardinality cardinality="1">
+            <ObjectProperty IRI="KISAO_0000259"/>
+            <Class IRI="KISAO_0000481"/>
+        </ObjectMaxCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000285"/>
+        <Class IRI="KISAO_0000369"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000285"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000245"/>
+            <Class IRI="KISAO_0000346"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000286"/>
+        <Class IRI="KISAO_0000377"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000286"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000245"/>
+            <Class IRI="KISAO_0000104"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000286"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000245"/>
+            <Class IRI="KISAO_0000106"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000286"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000245"/>
+            <Class IRI="KISAO_0000108"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000286"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000245"/>
+            <Class IRI="KISAO_0000240"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000286"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000245"/>
+            <Class IRI="KISAO_0000371"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000286"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000361"/>
+            <Class IRI="KISAO_0000261"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000287"/>
+        <Class IRI="KISAO_0000281"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000287"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000245"/>
+            <Class IRI="KISAO_0000104"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000287"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000245"/>
+            <Class IRI="KISAO_0000240"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000287"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000245"/>
+            <Class IRI="KISAO_0000371"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000288"/>
+        <Class IRI="KISAO_0000281"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000288"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000245"/>
+            <Class IRI="KISAO_0000103"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000288"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000245"/>
+            <Class IRI="KISAO_0000240"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000288"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000245"/>
+            <Class IRI="KISAO_0000374"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000288"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000245"/>
+            <Class IRI="KISAO_0000376"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000289"/>
+        <Class IRI="KISAO_0000281"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000289"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000245"/>
+            <Class IRI="KISAO_0000103"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000289"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000245"/>
+            <Class IRI="KISAO_0000374"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000289"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000245"/>
+            <Class IRI="KISAO_0000376"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000290"/>
+        <Class IRI="KISAO_0000302"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000290"/>
+        <DataHasValue>
+            <DataProperty IRI="KISAO_0000275"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">4</Literal>
+        </DataHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000296"/>
+        <Class IRI="KISAO_0000064"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000296"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000245"/>
+            <Class IRI="KISAO_0000108"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000296"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000245"/>
+            <Class IRI="KISAO_0000240"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000297"/>
+        <Class IRI="KISAO_0000064"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000297"/>
+        <ObjectComplementOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="KISAO_0000245"/>
+                <Class IRI="KISAO_0000366"/>
+            </ObjectSomeValuesFrom>
+        </ObjectComplementOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000297"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000245"/>
+            <Class IRI="KISAO_0000108"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000297"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000245"/>
+            <Class IRI="KISAO_0000240"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000299"/>
+        <Class IRI="KISAO_0000064"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000299"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000245"/>
+            <Class IRI="KISAO_0000108"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000299"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000245"/>
+            <Class IRI="KISAO_0000240"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000299"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000245"/>
+            <Class IRI="KISAO_0000366"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000301"/>
+        <Class IRI="KISAO_0000064"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000301"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000245"/>
+            <Class IRI="KISAO_0000108"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000301"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000245"/>
+            <Class IRI="KISAO_0000239"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000301"/>
+        <DataHasValue>
+            <DataProperty IRI="KISAO_0000275"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2</Literal>
+        </DataHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000302"/>
+        <Class IRI="KISAO_0000064"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000302"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000245"/>
+            <Class IRI="KISAO_0000107"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000302"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000245"/>
+            <Class IRI="KISAO_0000239"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000303"/>
+        <Class IRI="KISAO_0000302"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000303"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000360"/>
+            <ObjectIntersectionOf>
+                <Class IRI="KISAO_0000064"/>
+                <DataHasValue>
+                    <DataProperty IRI="KISAO_0000275"/>
+                    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">3</Literal>
+                </DataHasValue>
+            </ObjectIntersectionOf>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000303"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000360"/>
+            <ObjectIntersectionOf>
+                <Class IRI="KISAO_0000064"/>
+                <DataHasValue>
+                    <DataProperty IRI="KISAO_0000275"/>
+                    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">4</Literal>
+                </DataHasValue>
+            </ObjectIntersectionOf>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000304"/>
+        <Class IRI="KISAO_0000064"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000304"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000245"/>
+            <Class IRI="KISAO_0000108"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000304"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000245"/>
+            <Class IRI="KISAO_0000240"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000305"/>
+        <Class IRI="KISAO_0000302"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000305"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000360"/>
+            <ObjectIntersectionOf>
+                <Class IRI="KISAO_0000064"/>
+                <DataHasValue>
+                    <DataProperty IRI="KISAO_0000275"/>
+                    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">5</Literal>
+                </DataHasValue>
+            </ObjectIntersectionOf>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000305"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000360"/>
+            <ObjectIntersectionOf>
+                <Class IRI="KISAO_0000064"/>
+                <DataHasValue>
+                    <DataProperty IRI="KISAO_0000275"/>
+                    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">6</Literal>
+                </DataHasValue>
+            </ObjectIntersectionOf>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000306"/>
+        <Class IRI="KISAO_0000000"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000306"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000245"/>
+            <Class IRI="KISAO_0000102"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000306"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000245"/>
+            <Class IRI="KISAO_0000103"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000306"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000245"/>
+            <Class IRI="KISAO_0000106"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000306"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000245"/>
+            <Class IRI="KISAO_0000108"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000306"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000245"/>
+            <Class IRI="KISAO_0000237"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000306"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000245"/>
+            <Class IRI="KISAO_0000372"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000307"/>
+        <Class IRI="KISAO_0000369"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000307"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000245"/>
+            <Class IRI="KISAO_0000103"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000307"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000245"/>
+            <Class IRI="KISAO_0000108"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000307"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000245"/>
+            <Class IRI="KISAO_0000237"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000307"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000245"/>
+            <Class IRI="KISAO_0000346"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000308"/>
+        <Class IRI="KISAO_0000307"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000309"/>
+        <Class IRI="KISAO_0000307"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000309"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000245"/>
+            <Class IRI="KISAO_0000240"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000310"/>
+        <Class IRI="KISAO_0000369"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000310"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000245"/>
+            <Class IRI="KISAO_0000106"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000310"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000245"/>
+            <Class IRI="KISAO_0000107"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000310"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000245"/>
+            <Class IRI="KISAO_0000346"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000311"/>
+        <Class IRI="KISAO_0000097"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000314"/>
+        <Class IRI="KISAO_0000000"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000314"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000245"/>
+            <Class IRI="KISAO_0000103"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000314"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000245"/>
+            <Class IRI="KISAO_0000107"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000314"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000245"/>
+            <Class IRI="KISAO_0000237"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000314"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000245"/>
+            <Class IRI="KISAO_0000374"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000315"/>
+        <Class IRI="KISAO_0000068"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000315"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000245"/>
+            <Class IRI="KISAO_0000236"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000316"/>
+        <Class IRI="KISAO_0000056"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000316"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000245"/>
+            <Class IRI="KISAO_0000102"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000316"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000245"/>
+            <Class IRI="KISAO_0000105"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000316"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000245"/>
+            <Class IRI="KISAO_0000107"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000316"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000245"/>
+            <Class IRI="KISAO_0000236"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000316"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000359"/>
+            <Class IRI="KISAO_0000058"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000317"/>
+        <Class IRI="KISAO_0000352"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000317"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000245"/>
+            <Class IRI="KISAO_0000322"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000318"/>
+        <Class IRI="KISAO_0000064"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000318"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000245"/>
+            <Class IRI="KISAO_0000106"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000318"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000245"/>
+            <Class IRI="KISAO_0000108"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000318"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000245"/>
+            <Class IRI="KISAO_0000240"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000319"/>
+        <Class IRI="KISAO_0000000"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000319"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000245"/>
+            <Class IRI="KISAO_0000104"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000319"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000245"/>
+            <Class IRI="KISAO_0000105"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000319"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000245"/>
+            <Class IRI="KISAO_0000371"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000320"/>
+        <Class IRI="KISAO_0000352"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000320"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000245"/>
+            <Class IRI="KISAO_0000107"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000320"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000245"/>
+            <Class IRI="KISAO_0000322"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000320"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000246"/>
+            <Class IRI="KISAO_0000000"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000321"/>
+        <Class IRI="KISAO_0000435"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000322"/>
+        <Class IRI="KISAO_0000097"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000323"/>
+        <Class IRI="KISAO_0000333"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000323"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000259"/>
+            <Class IRI="KISAO_0000325"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000323"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000259"/>
+            <Class IRI="KISAO_0000326"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000323"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000259"/>
+            <Class IRI="KISAO_0000327"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000323"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000259"/>
+            <Class IRI="KISAO_0000328"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000324"/>
+        <Class IRI="KISAO_0000333"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000324"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000245"/>
+            <Class IRI="KISAO_0000237"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000324"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000360"/>
+            <Class IRI="KISAO_0000029"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000325"/>
+        <Class IRI="KISAO_0000242"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000325"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="KISAO_0000250"/>
+            <Class IRI="KISAO_0000323"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000325"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="KISAO_0000251"/>
+            <Datatype abbreviatedIRI="xsd:integer"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000326"/>
+        <Class IRI="KISAO_0000242"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000326"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="KISAO_0000250"/>
+            <Class IRI="KISAO_0000323"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000326"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="KISAO_0000251"/>
+            <Datatype abbreviatedIRI="xsd:integer"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000327"/>
+        <Class IRI="KISAO_0000252"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000327"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="KISAO_0000250"/>
+            <Class IRI="KISAO_0000323"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000327"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="KISAO_0000251"/>
+            <Datatype abbreviatedIRI="xsd:integer"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000328"/>
+        <Class IRI="KISAO_0000252"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000328"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="KISAO_0000250"/>
+            <Class IRI="KISAO_0000323"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000328"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="KISAO_0000251"/>
+            <Datatype abbreviatedIRI="xsd:double"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000329"/>
+        <Class IRI="KISAO_0000333"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000329"/>
+        <ObjectComplementOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="KISAO_0000245"/>
+                <Class IRI="KISAO_0000102"/>
+            </ObjectSomeValuesFrom>
+        </ObjectComplementOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000329"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000245"/>
+            <Class IRI="KISAO_0000236"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000330"/>
+        <Class IRI="KISAO_0000333"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000330"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000245"/>
+            <Class IRI="KISAO_0000237"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000331"/>
+        <Class IRI="KISAO_0000333"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000331"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000245"/>
+            <Class IRI="KISAO_0000236"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000331"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000359"/>
+            <Class IRI="KISAO_0000330"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000332"/>
+        <Class IRI="KISAO_0000244"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000332"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="KISAO_0000250"/>
+            <Class IRI="KISAO_0000331"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000332"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="KISAO_0000251"/>
+            <Datatype abbreviatedIRI="xsd:integer"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000333"/>
+        <Class IRI="KISAO_0000241"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000333"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000359"/>
+            <Class IRI="KISAO_0000029"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000334"/>
+        <Class IRI="KISAO_0000068"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000334"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000245"/>
+            <Class IRI="KISAO_0000236"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000334"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000359"/>
+            <Class IRI="KISAO_0000315"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000335"/>
+        <Class IRI="KISAO_0000241"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000335"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000361"/>
+            <Class IRI="KISAO_0000029"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000336"/>
+        <Class IRI="KISAO_0000335"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000336"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000245"/>
+            <Class IRI="KISAO_0000237"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000337"/>
+        <Class IRI="KISAO_0000369"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000337"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000245"/>
+            <Class IRI="KISAO_0000103"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000337"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000245"/>
+            <Class IRI="KISAO_0000237"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000337"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000245"/>
+            <Class IRI="KISAO_0000346"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000338"/>
+        <Class IRI="KISAO_0000337"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000339"/>
+        <Class IRI="KISAO_0000337"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000340"/>
+        <Class IRI="KISAO_0000337"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000340"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000361"/>
+            <Class IRI="KISAO_0000338"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000340"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000361"/>
+            <Class IRI="KISAO_0000339"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000341"/>
+        <Class IRI="KISAO_0000337"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000342"/>
+        <Class IRI="KISAO_0000369"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000342"/>
+        <ObjectComplementOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="KISAO_0000245"/>
+                <Class IRI="KISAO_0000376"/>
+            </ObjectSomeValuesFrom>
+        </ObjectComplementOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000343"/>
+        <Class IRI="KISAO_0000369"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000343"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000245"/>
+            <Class IRI="KISAO_0000103"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000343"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000245"/>
+            <Class IRI="KISAO_0000106"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000343"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000245"/>
+            <Class IRI="KISAO_0000237"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000343"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000245"/>
+            <Class IRI="KISAO_0000347"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000343"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000361"/>
+            <Class IRI="KISAO_0000337"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000345"/>
+        <Class IRI="KISAO_0000369"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000345"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000245"/>
+            <Class IRI="KISAO_0000103"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000345"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000245"/>
+            <Class IRI="KISAO_0000106"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000345"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000245"/>
+            <Class IRI="KISAO_0000237"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000345"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000245"/>
+            <Class IRI="KISAO_0000347"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000346"/>
+        <Class IRI="KISAO_0000311"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000347"/>
+        <Class IRI="KISAO_0000311"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000348"/>
+        <Class IRI="KISAO_0000369"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000348"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000245"/>
+            <Class IRI="KISAO_0000103"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000348"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000245"/>
+            <Class IRI="KISAO_0000237"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000348"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000245"/>
+            <Class IRI="KISAO_0000347"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000348"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000361"/>
+            <Class IRI="KISAO_0000337"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000349"/>
+        <Class IRI="KISAO_0000369"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000349"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000245"/>
+            <Class IRI="KISAO_0000103"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000349"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000245"/>
+            <Class IRI="KISAO_0000237"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000349"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000245"/>
+            <Class IRI="KISAO_0000347"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000350"/>
+        <Class IRI="KISAO_0000333"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000350"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000245"/>
+            <Class IRI="KISAO_0000237"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000351"/>
+        <Class IRI="KISAO_0000039"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000351"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000361"/>
+            <Class IRI="KISAO_0000074"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000352"/>
+        <Class IRI="KISAO_0000000"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000353"/>
+        <Class IRI="KISAO_0000354"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000353"/>
+        <ObjectComplementOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="KISAO_0000245"/>
+                <Class IRI="KISAO_0000102"/>
+            </ObjectSomeValuesFrom>
+        </ObjectComplementOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000353"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000361"/>
+            <Class IRI="KISAO_0000388"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000354"/>
+        <Class IRI="KISAO_0000398"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000354"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000245"/>
+            <Class IRI="KISAO_0000103"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000354"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000245"/>
+            <Class IRI="KISAO_0000106"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000355"/>
+        <Class IRI="KISAO_0000432"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000355"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000245"/>
+            <Class IRI="KISAO_0000373"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000355"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000359"/>
+            <Class IRI="KISAO_0000283"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000355"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000360"/>
+            <Class IRI="KISAO_0000353"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000355"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000360"/>
+            <Class IRI="KISAO_0000356"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000355"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000360"/>
+            <Class IRI="KISAO_0000386"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000356"/>
+        <Class IRI="KISAO_0000432"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000356"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000245"/>
+            <Class IRI="KISAO_0000373"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000357"/>
+        <Class IRI="KISAO_0000354"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000357"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000245"/>
+            <Class IRI="KISAO_0000404"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000358"/>
+        <Class IRI="KISAO_0000354"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000358"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000361"/>
+            <Class IRI="KISAO_0000357"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000362"/>
+        <Class IRI="KISAO_0000017"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000362"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000359"/>
+            <Class IRI="KISAO_0000021"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000362"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000361"/>
+            <Class IRI="KISAO_0000029"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000363"/>
+        <Class IRI="KISAO_0000000"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000363"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000245"/>
+            <Class IRI="KISAO_0000105"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000364"/>
+        <Class IRI="KISAO_0000289"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000364"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000360"/>
+            <Class IRI="KISAO_0000279"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000364"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000360"/>
+            <Class IRI="KISAO_0000280"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000365"/>
+        <Class IRI="KISAO_0000352"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000365"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000246"/>
+            <Class IRI="KISAO_0000288"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000365"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000246"/>
+            <Class IRI="KISAO_0000302"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000365"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000246"/>
+            <Class IRI="KISAO_0000310"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000365"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000246"/>
+            <Class IRI="KISAO_0000364"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000365"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000246"/>
+            <Class IRI="KISAO_0000367"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000365"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000246"/>
+            <ObjectIntersectionOf>
+                <Class IRI="KISAO_0000064"/>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="KISAO_0000245"/>
+                    <Class IRI="KISAO_0000240"/>
+                </ObjectSomeValuesFrom>
+            </ObjectIntersectionOf>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000366"/>
+        <Class IRI="KISAO_0000097"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000367"/>
+        <Class IRI="KISAO_0000064"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000367"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000245"/>
+            <Class IRI="KISAO_0000366"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000367"/>
+        <ObjectMinCardinality cardinality="2">
+            <ObjectProperty IRI="KISAO_0000360"/>
+            <Class IRI="KISAO_0000064"/>
+        </ObjectMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000369"/>
+        <Class IRI="KISAO_0000000"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000369"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000245"/>
+            <Class IRI="KISAO_0000102"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000369"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000245"/>
+            <Class IRI="KISAO_0000372"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000370"/>
+        <Class IRI="KISAO_0000097"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000371"/>
+        <Class IRI="KISAO_0000405"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000372"/>
+        <Class IRI="KISAO_0000405"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000373"/>
+        <Class IRI="KISAO_0000405"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000374"/>
+        <Class IRI="KISAO_0000405"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000375"/>
+        <Class IRI="KISAO_0000405"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000376"/>
+        <Class IRI="KISAO_0000370"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000377"/>
+        <Class IRI="KISAO_0000000"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000377"/>
+        <ObjectComplementOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="KISAO_0000245"/>
+                <Class IRI="KISAO_0000102"/>
+            </ObjectSomeValuesFrom>
+        </ObjectComplementOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000377"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000245"/>
+            <Class IRI="KISAO_0000237"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000377"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000259"/>
+            <Class IRI="KISAO_0000483"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000378"/>
+        <Class IRI="KISAO_0000064"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000378"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000245"/>
+            <Class IRI="KISAO_0000240"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000378"/>
+        <DataHasValue>
+            <DataProperty IRI="KISAO_0000275"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2</Literal>
+        </DataHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000379"/>
+        <Class IRI="KISAO_0000380"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000379"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000245"/>
+            <Class IRI="KISAO_0000103"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000379"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000245"/>
+            <Class IRI="KISAO_0000374"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000379"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000360"/>
+            <Class IRI="KISAO_0000382"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000380"/>
+        <Class IRI="KISAO_0000377"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000381"/>
+        <Class IRI="KISAO_0000064"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000381"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000245"/>
+            <Class IRI="KISAO_0000239"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000381"/>
+        <DataHasValue>
+            <DataProperty IRI="KISAO_0000275"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2</Literal>
+        </DataHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000382"/>
+        <Class IRI="KISAO_0000064"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000382"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000245"/>
+            <Class IRI="KISAO_0000239"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000383"/>
+        <Class IRI="KISAO_0000380"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000383"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000245"/>
+            <Class IRI="KISAO_0000374"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000383"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000360"/>
+            <Class IRI="KISAO_0000384"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000383"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000361"/>
+            <Class IRI="KISAO_0000379"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000384"/>
+        <Class IRI="KISAO_0000064"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000384"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000245"/>
+            <Class IRI="KISAO_0000240"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000386"/>
+        <Class IRI="KISAO_0000353"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000386"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000360"/>
+            <Class IRI="KISAO_0000397"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000388"/>
+        <Class IRI="KISAO_0000354"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000388"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000245"/>
+            <Class IRI="KISAO_0000404"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000389"/>
+        <Class IRI="KISAO_0000393"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000392"/>
+        <Class IRI="KISAO_0000395"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000393"/>
+        <Class IRI="KISAO_0000395"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000394"/>
+        <Class IRI="KISAO_0000392"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000395"/>
+        <Class IRI="KISAO_0000354"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000395"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000359"/>
+            <Class IRI="KISAO_0000358"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000396"/>
+        <Class IRI="KISAO_0000389"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000397"/>
+        <Class IRI="KISAO_0000000"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000397"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000399"/>
+            <Class IRI="KISAO_0000398"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000398"/>
+        <Class IRI="KISAO_0000000"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000398"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000245"/>
+            <Class IRI="KISAO_0000237"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000398"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000245"/>
+            <Class IRI="KISAO_0000373"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000398"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000245"/>
+            <Class IRI="KISAO_0000376"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000403"/>
+        <Class IRI="KISAO_0000376"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000404"/>
+        <Class IRI="KISAO_0000370"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000405"/>
+        <Class IRI="KISAO_0000370"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000407"/>
+        <Class IRI="KISAO_0000000"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000407"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000245"/>
+            <Class IRI="KISAO_0000106"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000408"/>
+        <Class IRI="KISAO_0000000"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000408"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000245"/>
+            <Class IRI="KISAO_0000106"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000408"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000259"/>
+            <Class IRI="KISAO_0000209"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000408"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000259"/>
+            <Class IRI="KISAO_0000211"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000408"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000259"/>
+            <Class IRI="KISAO_0000415"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000409"/>
+        <Class IRI="KISAO_0000408"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000410"/>
+        <Class IRI="KISAO_0000408"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000411"/>
+        <Class IRI="KISAO_0000408"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000412"/>
+        <Class IRI="KISAO_0000408"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000412"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000360"/>
+            <ObjectIntersectionOf>
+                <Class IRI="KISAO_0000000"/>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="KISAO_0000245"/>
+                    <Class IRI="KISAO_0000237"/>
+                </ObjectSomeValuesFrom>
+            </ObjectIntersectionOf>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000413"/>
+        <Class IRI="KISAO_0000408"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000413"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000360"/>
+            <ObjectIntersectionOf>
+                <Class IRI="KISAO_0000000"/>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="KISAO_0000245"/>
+                    <Class IRI="KISAO_0000236"/>
+                </ObjectSomeValuesFrom>
+            </ObjectIntersectionOf>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000415"/>
+        <Class IRI="KISAO_0000244"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000415"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="KISAO_0000250"/>
+            <Class IRI="KISAO_0000408"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000415"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="KISAO_0000251"/>
+            <Datatype abbreviatedIRI="xsd:integer"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000416"/>
+        <Class IRI="KISAO_0000423"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000416"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="KISAO_0000259"/>
+            <Class IRI="KISAO_0000420"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000416"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="KISAO_0000259"/>
+            <Class IRI="KISAO_0000421"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000417"/>
+        <Class IRI="KISAO_0000423"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000417"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000245"/>
+            <Class IRI="KISAO_0000322"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000417"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000259"/>
+            <Class IRI="KISAO_0000420"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000417"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000259"/>
+            <Class IRI="KISAO_0000424"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000417"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000259"/>
+            <Class IRI="KISAO_0000425"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000417"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000360"/>
+            <Class IRI="KISAO_0000416"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000417"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="KISAO_0000259"/>
+            <Class IRI="KISAO_0000428"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000418"/>
+        <Class IRI="KISAO_0000423"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000418"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="KISAO_0000259"/>
+            <Class IRI="KISAO_0000422"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000419"/>
+        <Class IRI="KISAO_0000000"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000419"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000245"/>
+            <Class IRI="KISAO_0000103"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000420"/>
+        <Class IRI="KISAO_0000201"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000420"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="KISAO_0000250"/>
+            <Class IRI="KISAO_0000423"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000420"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="KISAO_0000251"/>
+            <Datatype abbreviatedIRI="xsd:integer"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000421"/>
+        <Class IRI="KISAO_0000201"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000421"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="KISAO_0000250"/>
+            <Class IRI="KISAO_0000423"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000422"/>
+        <Class IRI="KISAO_0000201"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000422"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="KISAO_0000250"/>
+            <Class IRI="KISAO_0000418"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000422"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="KISAO_0000251"/>
+            <Datatype abbreviatedIRI="xsd:integer"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000423"/>
+        <Class IRI="KISAO_0000419"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000423"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="KISAO_0000259"/>
+            <Class IRI="KISAO_0000421"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000424"/>
+        <Class IRI="KISAO_0000430"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000424"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="KISAO_0000250"/>
+            <Class IRI="KISAO_0000423"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000424"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="KISAO_0000251"/>
+            <Datatype abbreviatedIRI="xsd:boolean"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000425"/>
+        <Class IRI="KISAO_0000430"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000425"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="KISAO_0000250"/>
+            <Class IRI="KISAO_0000423"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000425"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="KISAO_0000251"/>
+            <Datatype abbreviatedIRI="xsd:boolean"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000427"/>
+        <Class IRI="KISAO_0000429"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000427"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="KISAO_0000251"/>
+            <Datatype abbreviatedIRI="xsd:integer"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000428"/>
+        <Class IRI="KISAO_0000429"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000428"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="KISAO_0000250"/>
+            <Class IRI="KISAO_0000417"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000429"/>
+        <Class IRI="KISAO_0000201"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000430"/>
+        <Class IRI="KISAO_0000201"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000432"/>
+        <Class IRI="KISAO_0000408"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000432"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="KISAO_0000259"/>
+            <Class IRI="KISAO_0000467"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000433"/>
+        <Class IRI="KISAO_0000000"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000433"/>
+        <ObjectUnionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="KISAO_0000360"/>
+                <Class IRI="KISAO_0000280"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="KISAO_0000360"/>
+                <Class IRI="KISAO_0000288"/>
+            </ObjectSomeValuesFrom>
+        </ObjectUnionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000433"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000245"/>
+            <Class IRI="KISAO_0000374"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000433"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="KISAO_0000259"/>
+            <Class IRI="KISAO_0000467"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000434"/>
+        <Class IRI="KISAO_0000435"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000436"/>
+        <Class IRI="KISAO_0000302"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000436"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000360"/>
+            <ObjectIntersectionOf>
+                <Class IRI="KISAO_0000064"/>
+                <DataHasValue>
+                    <DataProperty IRI="KISAO_0000275"/>
+                    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">5</Literal>
+                </DataHasValue>
+            </ObjectIntersectionOf>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000436"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000360"/>
+            <ObjectIntersectionOf>
+                <Class IRI="KISAO_0000064"/>
+                <DataHasValue>
+                    <DataProperty IRI="KISAO_0000275"/>
+                    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">8</Literal>
+                </DataHasValue>
+            </ObjectIntersectionOf>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000437"/>
+        <Class IRI="KISAO_0000407"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000447"/>
+        <Class IRI="KISAO_0000352"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000447"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000360"/>
+            <Class IRI="KISAO_0000015"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000447"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000360"/>
+            <Class IRI="KISAO_0000039"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000447"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000360"/>
+            <ObjectIntersectionOf>
+                <Class IRI="KISAO_0000000"/>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="KISAO_0000245"/>
+                    <Class IRI="KISAO_0000103"/>
+                </ObjectSomeValuesFrom>
+            </ObjectIntersectionOf>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000447"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="KISAO_0000259"/>
+            <Class IRI="KISAO_0000211"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000448"/>
+        <Class IRI="KISAO_0000000"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000448"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000245"/>
+            <Class IRI="KISAO_0000105"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000448"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000245"/>
+            <Class IRI="KISAO_0000107"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000449"/>
+        <Class IRI="KISAO_0000448"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000450"/>
+        <Class IRI="KISAO_0000448"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000451"/>
+        <Class IRI="KISAO_0000097"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000452"/>
+        <Class IRI="KISAO_0000451"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000452"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000268"/>
+            <ObjectIntersectionOf>
+                <Class IRI="KISAO_0000450"/>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="KISAO_0000245"/>
+                    <Class IRI="KISAO_0000104"/>
+                </ObjectSomeValuesFrom>
+            </ObjectIntersectionOf>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000453"/>
+        <Class IRI="KISAO_0000451"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000453"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000268"/>
+            <ObjectIntersectionOf>
+                <Class IRI="KISAO_0000450"/>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="KISAO_0000245"/>
+                    <Class IRI="KISAO_0000103"/>
+                </ObjectSomeValuesFrom>
+            </ObjectIntersectionOf>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000454"/>
+        <Class IRI="KISAO_0000453"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000455"/>
+        <Class IRI="KISAO_0000453"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000467"/>
+        <Class IRI="KISAO_0000242"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000467"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="KISAO_0000251"/>
+            <Datatype abbreviatedIRI="xsd:double"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000468"/>
+        <Class IRI="KISAO_0000352"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000468"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000245"/>
+            <Class IRI="KISAO_0000104"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000468"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000259"/>
+            <Class IRI="KISAO_0000469"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000468"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000360"/>
+            <Class IRI="KISAO_0000027"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000468"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000360"/>
+            <Class IRI="KISAO_0000039"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000469"/>
+        <Class IRI="KISAO_0000243"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000470"/>
+        <Class IRI="KISAO_0000000"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000471"/>
+        <Class IRI="KISAO_0000470"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000472"/>
+        <Class IRI="KISAO_0000470"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000473"/>
+        <Class IRI="KISAO_0000000"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000475"/>
+        <Class IRI="KISAO_0000201"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000476"/>
+        <Class IRI="KISAO_0000201"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000477"/>
+        <Class IRI="KISAO_0000201"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000478"/>
+        <Class IRI="KISAO_0000201"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000479"/>
+        <Class IRI="KISAO_0000482"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000479"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="KISAO_0000251"/>
+            <Datatype abbreviatedIRI="xsd:integer"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000480"/>
+        <Class IRI="KISAO_0000482"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000480"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="KISAO_0000251"/>
+            <Datatype abbreviatedIRI="xsd:integer"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000481"/>
+        <Class IRI="KISAO_0000201"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000481"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="KISAO_0000251"/>
+            <Datatype abbreviatedIRI="xsd:boolean"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000482"/>
+        <Class IRI="KISAO_0000201"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000483"/>
+        <Class IRI="KISAO_0000242"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000484"/>
+        <Class IRI="KISAO_0000243"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000484"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="KISAO_0000251"/>
+            <Datatype abbreviatedIRI="xsd:integer"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000485"/>
+        <Class IRI="KISAO_0000242"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000485"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="KISAO_0000251"/>
+            <Datatype abbreviatedIRI="xsd:double"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000486"/>
+        <Class IRI="KISAO_0000244"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000487"/>
+        <Class IRI="KISAO_0000201"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000487"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="KISAO_0000251"/>
+            <Datatype abbreviatedIRI="xsd:double"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000488"/>
+        <Class IRI="KISAO_0000201"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000488"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000250"/>
+            <ObjectIntersectionOf>
+                <Class IRI="KISAO_0000000"/>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="KISAO_0000245"/>
+                    <Class IRI="KISAO_0000104"/>
+                </ObjectSomeValuesFrom>
+            </ObjectIntersectionOf>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000491"/>
+        <Class IRI="KISAO_0000000"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000491"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000245"/>
+            <Class IRI="KISAO_0000105"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000492"/>
+        <Class IRI="KISAO_0000451"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000493"/>
+        <Class IRI="KISAO_0000451"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000494"/>
+        <Class IRI="KISAO_0000492"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000495"/>
+        <Class IRI="KISAO_0000452"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000495"/>
+        <Class IRI="KISAO_0000492"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000496"/>
+        <Class IRI="KISAO_0000433"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000496"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000359"/>
+            <Class IRI="KISAO_0000019"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000496"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000360"/>
+            <Class IRI="KISAO_0000497"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KISAO_0000497"/>
+        <Class IRI="KISAO_0000000"/>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectIntersectionOf>
+            <Class IRI="KISAO_0000000"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="KISAO_0000245"/>
+                <Class IRI="KISAO_0000311"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000245"/>
+            <Class IRI="KISAO_0000102"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectIntersectionOf>
+            <Class IRI="KISAO_0000064"/>
+            <ObjectComplementOf>
+                <Class IRI="KISAO_0000367"/>
+            </ObjectComplementOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="KISAO_0000245"/>
+                <Class IRI="KISAO_0000239"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <ObjectComplementOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="KISAO_0000245"/>
+                <Class IRI="KISAO_0000366"/>
+            </ObjectSomeValuesFrom>
+        </ObjectComplementOf>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectIntersectionOf>
+            <Class IRI="KISAO_0000064"/>
+            <ObjectComplementOf>
+                <Class IRI="KISAO_0000367"/>
+            </ObjectComplementOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="KISAO_0000245"/>
+                <Class IRI="KISAO_0000366"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="KISAO_0000245"/>
+            <Class IRI="KISAO_0000240"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="KISAO_0000000"/>
+        <Class IRI="KISAO_0000097"/>
+        <Class IRI="KISAO_0000201"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="KISAO_0000015"/>
+        <Class IRI="KISAO_0000029"/>
+        <Class IRI="KISAO_0000075"/>
+        <Class IRI="KISAO_0000333"/>
+        <Class IRI="KISAO_0000335"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="KISAO_0000015"/>
+        <Class IRI="KISAO_0000051"/>
+        <Class IRI="KISAO_0000075"/>
+        <Class IRI="KISAO_0000333"/>
+        <Class IRI="KISAO_0000335"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="KISAO_0000017"/>
+        <Class IRI="KISAO_0000021"/>
+        <Class IRI="KISAO_0000264"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="KISAO_0000019"/>
+        <Class IRI="KISAO_0000282"/>
+        <Class IRI="KISAO_0000283"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="KISAO_0000019"/>
+        <Class IRI="KISAO_0000282"/>
+        <Class IRI="KISAO_0000356"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="KISAO_0000019"/>
+        <Class IRI="KISAO_0000355"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="KISAO_0000020"/>
+        <Class IRI="KISAO_0000282"/>
+        <Class IRI="KISAO_0000355"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="KISAO_0000020"/>
+        <Class IRI="KISAO_0000283"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="KISAO_0000020"/>
+        <Class IRI="KISAO_0000356"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="KISAO_0000022"/>
+        <Class IRI="KISAO_0000076"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="KISAO_0000030"/>
+        <Class IRI="KISAO_0000031"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="KISAO_0000032"/>
+        <Class IRI="KISAO_0000033"/>
+        <Class IRI="KISAO_0000276"/>
+        <Class IRI="KISAO_0000296"/>
+        <Class IRI="KISAO_0000297"/>
+        <Class IRI="KISAO_0000299"/>
+        <Class IRI="KISAO_0000301"/>
+        <Class IRI="KISAO_0000302"/>
+        <Class IRI="KISAO_0000304"/>
+        <Class IRI="KISAO_0000318"/>
+        <Class IRI="KISAO_0000367"/>
+        <Class IRI="KISAO_0000378"/>
+        <Class IRI="KISAO_0000381"/>
+        <Class IRI="KISAO_0000382"/>
+        <Class IRI="KISAO_0000384"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="KISAO_0000040"/>
+        <Class IRI="KISAO_0000045"/>
+        <Class IRI="KISAO_0000046"/>
+        <Class IRI="KISAO_0000048"/>
+        <Class IRI="KISAO_0000074"/>
+        <Class IRI="KISAO_0000081"/>
+        <Class IRI="KISAO_0000084"/>
+        <Class IRI="KISAO_0000351"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="KISAO_0000056"/>
+        <Class IRI="KISAO_0000094"/>
+        <Class IRI="KISAO_0000273"/>
+        <Class IRI="KISAO_0000281"/>
+        <Class IRI="KISAO_0000306"/>
+        <Class IRI="KISAO_0000314"/>
+        <Class IRI="KISAO_0000319"/>
+        <Class IRI="KISAO_0000363"/>
+        <Class IRI="KISAO_0000369"/>
+        <Class IRI="KISAO_0000377"/>
+        <Class IRI="KISAO_0000397"/>
+        <Class IRI="KISAO_0000398"/>
+        <Class IRI="KISAO_0000407"/>
+        <Class IRI="KISAO_0000408"/>
+        <Class IRI="KISAO_0000419"/>
+        <Class IRI="KISAO_0000433"/>
+        <Class IRI="KISAO_0000448"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="KISAO_0000056"/>
+        <Class IRI="KISAO_0000094"/>
+        <Class IRI="KISAO_0000273"/>
+        <Class IRI="KISAO_0000281"/>
+        <Class IRI="KISAO_0000306"/>
+        <Class IRI="KISAO_0000314"/>
+        <Class IRI="KISAO_0000319"/>
+        <Class IRI="KISAO_0000363"/>
+        <Class IRI="KISAO_0000369"/>
+        <Class IRI="KISAO_0000377"/>
+        <Class IRI="KISAO_0000397"/>
+        <Class IRI="KISAO_0000398"/>
+        <Class IRI="KISAO_0000407"/>
+        <Class IRI="KISAO_0000408"/>
+        <Class IRI="KISAO_0000419"/>
+        <Class IRI="KISAO_0000433"/>
+        <Class IRI="KISAO_0000491"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="KISAO_0000056"/>
+        <Class IRI="KISAO_0000094"/>
+        <Class IRI="KISAO_0000273"/>
+        <Class IRI="KISAO_0000281"/>
+        <Class IRI="KISAO_0000306"/>
+        <Class IRI="KISAO_0000314"/>
+        <Class IRI="KISAO_0000319"/>
+        <Class IRI="KISAO_0000363"/>
+        <Class IRI="KISAO_0000369"/>
+        <Class IRI="KISAO_0000377"/>
+        <Class IRI="KISAO_0000397"/>
+        <Class IRI="KISAO_0000398"/>
+        <Class IRI="KISAO_0000419"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="KISAO_0000056"/>
+        <Class IRI="KISAO_0000094"/>
+        <Class IRI="KISAO_0000273"/>
+        <Class IRI="KISAO_0000281"/>
+        <Class IRI="KISAO_0000306"/>
+        <Class IRI="KISAO_0000314"/>
+        <Class IRI="KISAO_0000363"/>
+        <Class IRI="KISAO_0000369"/>
+        <Class IRI="KISAO_0000377"/>
+        <Class IRI="KISAO_0000397"/>
+        <Class IRI="KISAO_0000398"/>
+        <Class IRI="KISAO_0000408"/>
+        <Class IRI="KISAO_0000419"/>
+        <Class IRI="KISAO_0000433"/>
+        <Class IRI="KISAO_0000448"/>
+        <Class IRI="KISAO_0000473"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="KISAO_0000056"/>
+        <Class IRI="KISAO_0000094"/>
+        <Class IRI="KISAO_0000273"/>
+        <Class IRI="KISAO_0000306"/>
+        <Class IRI="KISAO_0000314"/>
+        <Class IRI="KISAO_0000363"/>
+        <Class IRI="KISAO_0000407"/>
+        <Class IRI="KISAO_0000419"/>
+        <Class IRI="KISAO_0000433"/>
+        <Class IRI="KISAO_0000470"/>
+        <Class IRI="KISAO_0000473"/>
+        <Class IRI="KISAO_0000491"/>
+        <Class IRI="KISAO_0000497"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="KISAO_0000057"/>
+        <Class IRI="KISAO_0000058"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="KISAO_0000064"/>
+        <Class IRI="KISAO_0000261"/>
+        <Class IRI="KISAO_0000286"/>
+        <Class IRI="KISAO_0000380"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="KISAO_0000086"/>
+        <Class IRI="KISAO_0000087"/>
+        <Class IRI="KISAO_0000321"/>
+        <Class IRI="KISAO_0000434"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="KISAO_0000088"/>
+        <Class IRI="KISAO_0000089"/>
+        <Class IRI="KISAO_0000090"/>
+        <Class IRI="KISAO_0000091"/>
+        <Class IRI="KISAO_0000093"/>
+        <Class IRI="KISAO_0000232"/>
+        <Class IRI="KISAO_0000233"/>
+        <Class IRI="KISAO_0000234"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="KISAO_0000095"/>
+        <Class IRI="KISAO_0000336"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="KISAO_0000098"/>
+        <Class IRI="KISAO_0000099"/>
+        <Class IRI="KISAO_0000100"/>
+        <Class IRI="KISAO_0000102"/>
+        <Class IRI="KISAO_0000235"/>
+        <Class IRI="KISAO_0000238"/>
+        <Class IRI="KISAO_0000311"/>
+        <Class IRI="KISAO_0000322"/>
+        <Class IRI="KISAO_0000366"/>
+        <Class IRI="KISAO_0000370"/>
+        <Class IRI="KISAO_0000451"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="KISAO_0000103"/>
+        <Class IRI="KISAO_0000104"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="KISAO_0000105"/>
+        <Class IRI="KISAO_0000106"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="KISAO_0000107"/>
+        <Class IRI="KISAO_0000108"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="KISAO_0000203"/>
+        <Class IRI="KISAO_0000204"/>
+        <Class IRI="KISAO_0000205"/>
+        <Class IRI="KISAO_0000248"/>
+        <Class IRI="KISAO_0000249"/>
+        <Class IRI="KISAO_0000257"/>
+        <Class IRI="KISAO_0000258"/>
+        <Class IRI="KISAO_0000260"/>
+        <Class IRI="KISAO_0000327"/>
+        <Class IRI="KISAO_0000328"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="KISAO_0000216"/>
+        <Class IRI="KISAO_0000230"/>
+        <Class IRI="KISAO_0000469"/>
+        <Class IRI="KISAO_0000484"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="KISAO_0000219"/>
+        <Class IRI="KISAO_0000220"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="KISAO_0000223"/>
+        <Class IRI="KISAO_0000253"/>
+        <Class IRI="KISAO_0000332"/>
+        <Class IRI="KISAO_0000415"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="KISAO_0000223"/>
+        <Class IRI="KISAO_0000253"/>
+        <Class IRI="KISAO_0000332"/>
+        <Class IRI="KISAO_0000486"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="KISAO_0000231"/>
+        <Class IRI="KISAO_0000317"/>
+        <Class IRI="KISAO_0000320"/>
+        <Class IRI="KISAO_0000365"/>
+        <Class IRI="KISAO_0000447"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="KISAO_0000236"/>
+        <Class IRI="KISAO_0000237"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="KISAO_0000239"/>
+        <Class IRI="KISAO_0000240"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="KISAO_0000241"/>
+        <Class IRI="KISAO_0000274"/>
+        <Class IRI="KISAO_0000278"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="KISAO_0000242"/>
+        <Class IRI="KISAO_0000243"/>
+        <Class IRI="KISAO_0000244"/>
+        <Class IRI="KISAO_0000252"/>
+        <Class IRI="KISAO_0000420"/>
+        <Class IRI="KISAO_0000421"/>
+        <Class IRI="KISAO_0000422"/>
+        <Class IRI="KISAO_0000429"/>
+        <Class IRI="KISAO_0000430"/>
+        <Class IRI="KISAO_0000475"/>
+        <Class IRI="KISAO_0000476"/>
+        <Class IRI="KISAO_0000477"/>
+        <Class IRI="KISAO_0000478"/>
+        <Class IRI="KISAO_0000481"/>
+        <Class IRI="KISAO_0000482"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="KISAO_0000254"/>
+        <Class IRI="KISAO_0000325"/>
+        <Class IRI="KISAO_0000326"/>
+        <Class IRI="KISAO_0000467"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="KISAO_0000255"/>
+        <Class IRI="KISAO_0000256"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="KISAO_0000263"/>
+        <Class IRI="KISAO_0000362"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="KISAO_0000279"/>
+        <Class IRI="KISAO_0000280"/>
+        <Class IRI="KISAO_0000364"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="KISAO_0000282"/>
+        <Class IRI="KISAO_0000409"/>
+        <Class IRI="KISAO_0000410"/>
+        <Class IRI="KISAO_0000411"/>
+        <Class IRI="KISAO_0000432"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="KISAO_0000282"/>
+        <Class IRI="KISAO_0000412"/>
+        <Class IRI="KISAO_0000413"/>
+        <Class IRI="KISAO_0000432"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="KISAO_0000285"/>
+        <Class IRI="KISAO_0000307"/>
+        <Class IRI="KISAO_0000310"/>
+        <Class IRI="KISAO_0000337"/>
+        <Class IRI="KISAO_0000342"/>
+        <Class IRI="KISAO_0000343"/>
+        <Class IRI="KISAO_0000345"/>
+        <Class IRI="KISAO_0000348"/>
+        <Class IRI="KISAO_0000349"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="KISAO_0000287"/>
+        <Class IRI="KISAO_0000288"/>
+        <Class IRI="KISAO_0000289"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="KISAO_0000288"/>
+        <Class IRI="KISAO_0000289"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="KISAO_0000290"/>
+        <Class IRI="KISAO_0000303"/>
+        <Class IRI="KISAO_0000305"/>
+        <Class IRI="KISAO_0000436"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="KISAO_0000303"/>
+        <Class IRI="KISAO_0000305"/>
+        <Class IRI="KISAO_0000435"/>
+        <Class IRI="KISAO_0000436"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="KISAO_0000308"/>
+        <Class IRI="KISAO_0000309"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="KISAO_0000315"/>
+        <Class IRI="KISAO_0000334"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="KISAO_0000338"/>
+        <Class IRI="KISAO_0000339"/>
+        <Class IRI="KISAO_0000341"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="KISAO_0000340"/>
+        <Class IRI="KISAO_0000341"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="KISAO_0000346"/>
+        <Class IRI="KISAO_0000347"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="KISAO_0000353"/>
+        <Class IRI="KISAO_0000357"/>
+        <Class IRI="KISAO_0000358"/>
+        <Class IRI="KISAO_0000388"/>
+        <Class IRI="KISAO_0000395"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="KISAO_0000371"/>
+        <Class IRI="KISAO_0000372"/>
+        <Class IRI="KISAO_0000373"/>
+        <Class IRI="KISAO_0000374"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="KISAO_0000376"/>
+        <Class IRI="KISAO_0000404"/>
+        <Class IRI="KISAO_0000405"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="KISAO_0000392"/>
+        <Class IRI="KISAO_0000393"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="KISAO_0000416"/>
+        <Class IRI="KISAO_0000417"/>
+        <Class IRI="KISAO_0000418"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="KISAO_0000424"/>
+        <Class IRI="KISAO_0000425"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="KISAO_0000427"/>
+        <Class IRI="KISAO_0000428"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="KISAO_0000449"/>
+        <Class IRI="KISAO_0000450"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="KISAO_0000452"/>
+        <Class IRI="KISAO_0000453"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="KISAO_0000471"/>
+        <Class IRI="KISAO_0000472"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="KISAO_0000479"/>
+        <Class IRI="KISAO_0000480"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="KISAO_0000492"/>
+        <Class IRI="KISAO_0000493"/>
+    </DisjointClasses>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="KISAO_0000246"/>
+        <ObjectProperty IRI="KISAO_0000360"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="KISAO_0000361"/>
+        <ObjectProperty IRI="KISAO_0000359"/>
+    </SubObjectPropertyOf>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="KISAO_0000245"/>
+        <ObjectProperty IRI="KISAO_0000268"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="KISAO_0000250"/>
+        <ObjectProperty IRI="KISAO_0000259"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="KISAO_0000360"/>
+        <ObjectProperty IRI="KISAO_0000399"/>
+    </InverseObjectProperties>
+    <SymmetricObjectProperty>
+        <ObjectProperty IRI="KISAO_0000359"/>
+    </SymmetricObjectProperty>
+    <ReflexiveObjectProperty>
+        <ObjectProperty IRI="KISAO_0000359"/>
+    </ReflexiveObjectProperty>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="KISAO_0000245"/>
+        <Class IRI="KISAO_0000000"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="KISAO_0000246"/>
+        <ObjectIntersectionOf>
+            <Class IRI="KISAO_0000000"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="KISAO_0000245"/>
+                <Class IRI="KISAO_0000322"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="KISAO_0000250"/>
+        <Class IRI="KISAO_0000201"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="KISAO_0000259"/>
+        <Class IRI="KISAO_0000000"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="KISAO_0000268"/>
+        <Class IRI="KISAO_0000097"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="KISAO_0000360"/>
+        <Class IRI="KISAO_0000000"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="KISAO_0000361"/>
+        <Class IRI="KISAO_0000000"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="KISAO_0000245"/>
+        <Class IRI="KISAO_0000097"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="KISAO_0000246"/>
+        <Class IRI="KISAO_0000000"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="KISAO_0000250"/>
+        <Class IRI="KISAO_0000000"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="KISAO_0000259"/>
+        <Class IRI="KISAO_0000201"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="KISAO_0000268"/>
+        <Class IRI="KISAO_0000000"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="KISAO_0000360"/>
+        <Class IRI="KISAO_0000000"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="KISAO_0000361"/>
+        <Class IRI="KISAO_0000000"/>
+    </ObjectPropertyRange>
+    <DisjointObjectProperties>
+        <ObjectProperty IRI="KISAO_0000245"/>
+        <ObjectProperty IRI="KISAO_0000250"/>
+        <ObjectProperty IRI="KISAO_0000259"/>
+        <ObjectProperty IRI="KISAO_0000268"/>
+        <ObjectProperty IRI="KISAO_0000359"/>
+        <ObjectProperty IRI="KISAO_0000360"/>
+    </DisjointObjectProperties>
+    <FunctionalDataProperty>
+        <DataProperty IRI="KISAO_0000251"/>
+    </FunctionalDataProperty>
+    <DataPropertyDomain>
+        <DataProperty IRI="KISAO_0000251"/>
+        <Class IRI="KISAO_0000201"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="KISAO_0000275"/>
+        <Class IRI="KISAO_0000064"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="KISAO_0000275"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8) https://github.com/owlcs/owlapi -->
+

@@ -1,0 +1,2653 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Agreement_to_perform_oversight"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Pharmacodynamic_study"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Physical_Readouts"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Combination_trial"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Enrolling_by_invitation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Concomitant_medication"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Fluctuations_in_attention"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Regulatory_Submission"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Prospective_study"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Clinical_trial_operation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Not_yet_recruiting"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Last_verified_date"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#First_recieved_Date"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Survey"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Ethics_approval_process"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Sleep_disturbance_test"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Safety_of_the_treatment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Phase_O"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Scale_for_Depression"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Video_movement_analysis"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Historical_observational_cohort"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#ml"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Multiple_Sclerosis"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Instantaneous_study"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Phase_I"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Unicenter_trial"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Neuropsychological_Test_Battery"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Drug_allergy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Reason_treatment_not_administered"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Apparent_dose"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Mini_Mental_State_Examination"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Study_administrative_relation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Hazard_ratio"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Interventional_study_design"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Spinal_muscular_atrophy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Adverse_Event_Action-Taken"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Structure_of_clinical_trial"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Freezing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Agitation_test"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Magnetic_Resonance_imaging"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Assessment_Scale-cognitive_subscale"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#No_intervention_arm"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Quasi_random_allocation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Cognitive_tests"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Single_group_study_design"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Estimated_Enrollment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Study_design"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Safety_measure"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Outpatient"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Supportive_Care"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#CSF_total_tau_level"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Agreement_to_perform"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Feasibility_study"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Temporarily_not_available_for_expanded_access"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Community_trial"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Single_Group_Assignment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Abnormal_behavior"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Age_group"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Random_allocation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Evaluated_Activity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Neuroimaging_Structural"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Body_weight_gain"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Study_Conduct_Sub-Domain"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#PK_parameter_units_of_measure"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Retrospective_study"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Study_type"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#50-80_years"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#CSF_Alpha_beta_42_level"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Bio-alvailability_study"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Clinical_Trial_Readouts"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Qualitative_study_design"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Physical_examinations"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Randomized_to_active_treatment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Reason_for_treatment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Renal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Average_Body_Weight_Gain"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#CSF"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Minimization"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Health_Services"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Neuropsychiatric_symptoms"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Undetermined_stroke"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Clinical_Global_Impression_of_Change"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Timing_of_outcome_measurement"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Expanded_access"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Cohort_study_design"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Sample_size"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Randomized_blinded_withdrawal_design"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Single_blind"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Clinical_trial_methods"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Submission_Unit"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Study_Site"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Randomized_blinded_matched_pairs"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Observation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Radiography"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Quantitative_study_design"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Recruiting"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Drug_addiction"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Statistical_significance"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Cohort"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Multiple_site"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Non-randomized_concurrent_control_study"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Experimental"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Intervention_assignment_scheme"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Assessment_method_specification"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Randomized_control_trial"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Masking"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Cognitive_Readouts"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Multiple_regimen"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Haemopoietic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Controlled_trial"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Biological_Specimen"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Uncontrolled_trial"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Clinical_outcome_measure"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Investigator_assigns_intervention"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#No_longer_available_for_expanded_access"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Data_analyzed_within_multiple_experimental_units"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Anxiety"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Parallel_Assignment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Gender"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Stroke"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Simple_randomization"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Pharmacokinetic_study"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Neuropsychiatric_Test_Battery"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Primary_purpose"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Fed_state"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Withdrawn_study"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Primary_endpoint_measure"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Psychiatric_symptoms"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Causal_Assessment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Phase_VI"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Available_for_expanded_access"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Registration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Intervention_model"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Clinical_trial_type"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#fg/mL"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Encephalitis"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Memory_and_learning"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Exploratory_Clinical_Trials"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Study_Objective"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Apathy_Evaluation_Scale"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Plasma_concentration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#P-Values"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Prion_diseases"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#ng/l"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Resting_state_functional_network_activity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Triple_blind"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Biological_Readouts"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Open_label"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Genetic_Brain_disorders"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Regulatory_Sub-Domain"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Phase_not_applicable"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Recruitment_of_patients"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Hour"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Randomized_blinded_cross-over"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Plasma"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Dizziness"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Amyotrophic_Lateral_Scherosis"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Week"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Suspended_study"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Parallel_group_study_design"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#ADAS-Cog"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Informed_consent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Vital_signs"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Diagnostic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Clinical_trial"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Food_effect"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#CSF_concentrations"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Confusion"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Blinded"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Hallucination"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#18-69_years"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Phase_III"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#mg/dl"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Molecular_Readouts"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Biological_Laboratory_variables"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Study_phases"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Experimental_study"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Longitudinal_study"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Hohen_and_Yahr_Scale"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Pet_scan"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#CogState"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Alcohol_addiction"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Status"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Regulatory_Application"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Active_control_trial"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Terminated_study"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Observational_study"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Clinical_Dementia_Rating_Scale-sum_of_boxes"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Dose-response_trial"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Analytical_study"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Evaluated_Result"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Cross-sectional_study_design"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Lewy_body_disease"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Sever_Impairment_Battery"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Alzheimer&apos;s_disease"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Data_analysis_within_experimental_units"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Recruitment_criteria"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Closed_study"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Clinical_Trial_Study"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Epilepsy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#N_of_1_crossover_study_design"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Toxicological_tests"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Pilot_Trials"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Surrogate_outcome_measure"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Non_random_allocation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Functional_imaging_fMRI"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Secondary_endpoint_measure"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Pregnancy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Clinical_Global_Impressions_scale"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Clinical_trial_ethics"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#/h"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Feasibility_assessment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Recruitment_status"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Depression"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Informations_of_study"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Amyloidosis"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Case-control"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Data_analyzed_within_single_experimental_units"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Peripheral_nerve_injury"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Frontotemporal_dementia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Last_updated_Date"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Reviewable_Unit"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Neuro-Psychiatric_Inventory"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Stratified_randomization"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Completion_Date"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Clinical_biomarkers"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Syncope"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Treatment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Walk_test"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Age_unit"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Completed"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Study_Resource"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Phase_II"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Group_allocation_design"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Crossover_assignment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Year"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Comparator"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Disease_presentation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Clinical_Trial_measurement_Units"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Clinical_trial_design"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Multiple_experimental_unit_allocation_group"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Hepatic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Prospective_observational_cohort"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Site_selection"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Treatment_failure_reason"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Regulatory_Application_Sponsor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Baseline_characteristics"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Diabetes"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Single_regimen"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Percentage_body_weight_gain"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Adverse_events"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Parkinson_disease"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Protocol_Representation_Sub-Domain"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Data_Management_and_Quality_Assurance"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Events"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Sponsoring"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Case-crossover_study_design"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Unblinded"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Start_Date"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Biomarkers_in_Neurology"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Allocation_group_cardinality"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Body_weight"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Adverse_Event_Sub-Domain"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Irritability_test"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Seizures"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Reason_for_treatment_interruption"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Apathy_test"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Treatment_episode"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Allocation_scheme"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Stratum_Group"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Symptomatic_postural_hypotension"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Disease_outcome"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Concomitant_Agent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Quality_of_life"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Cross-over_design"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Active_control"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Investigator_assigns_no_intervention"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Study_characteristics"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Huntington&apos;s_disease"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Screening"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#_Pittsburgh_Agitation_Scale"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Regulatory_Assessment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Friedreich&apos;s_ataxia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#The_Randomized_Blinded_Trial"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Month"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Inpatient"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Delusion"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Official_title_of_trial_study"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Superiority_trial"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Funding"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Explanatory_trial"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Blood"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Open_study"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Block_randomization"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Active_comparator"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Change_from_baseline"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Brief_summary"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#International_site"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Primary_completion_Date"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Mortality_rate"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Investigator_assignment_role"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Efficacy_study"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Single_site"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Water_consumption"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Placebo_comparator"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Randomized_blinded_block"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Crossover_study_design"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Factorial_design"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#N-of-1_clinical_trial"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Attention_test"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Ultrasound"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Inclusion_criteria"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Basic_science"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Study_Legal_Sponsor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Clinical_event"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Urine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Day"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#CSF_markers"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Plasma_markers"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Single_experimental_unit_allocation_group"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Executive_Functions"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Magnetic_resonance_spectroscopy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Blindness"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Bio-equivalence_study"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#18-N/A_years"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Study_arms"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Study_Investigator"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Statistical_concept"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Anxiety_test"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Uncontrolled"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Fasted_state"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Neuropsychiatric_Inventory"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Computed_tomography"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Identifier"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Restricted_randomization"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Date_of_registration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Confidence_interval"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Control"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Approved_for_marketing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Regimen_cardinality"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Hydrocephalus"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Pivotal_trial"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Recruitment_active"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Standard_Deviation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Sham_comparator"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Exclusion_criteria"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Sequential_trial"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Randomized_blinded_factorial"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Adaptive_design"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Rate_of_institutionalization"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Hybrid_design"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Prevention"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Number_of_responders"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Assignment_characteristics"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Agreement_to_perform_study_laboratory_processing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Multicentered_Trials"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Study_contact"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Composite_outcome_measure"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Cardiac"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#g/ml"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#g/day"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Biochemical_biomarkers_identified_in_cerebrospinal_fluid_and_serum"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Parallel_trial"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Double_blind"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Body_Fluids"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Agreement_to_perform_study_subject_assessment_or_intervent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Committees_for_Multicenter_Clinical_Trials"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Safety_study"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Descriptive_study"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Adverse_Event_Outcome_Assessment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Clinical_imagings"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Epworth_Sleepiness_Scale"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Terminal_body_weight"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Physical_symptoms"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Study_Protocol_Document"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Case-control"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Placebo"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Active_comparator"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Comparator"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Active_control_trial"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Clinical_trial_type"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Adaptive_design"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Clinical_trial_design"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Age_unit"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Clinical_Trial_measurement_Units"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Amyloidosis"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Disease_presentation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Analytical_study"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Study_type"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Approved_for_marketing"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Closed_study"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Available_for_expanded_access"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Open_study"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Average_Body_Weight_Gain"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Body_weight_gain"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Baseline_characteristics"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Study_Conduct_Sub-Domain"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Blinded"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Masking"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Blindness"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Clinical_trial_design"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Body_weight_gain"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Body_weight"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Case-control"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Retrospective_study"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Clinical_outcome_measure"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Statistical_concept"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Clinical_trial"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Prospective_study"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Clinical_trial_design"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Structure_of_clinical_trial"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Clinical_trial_ethics"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Clinical_trial_methods"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Clinical_trial_operation"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Clinical_trial_methods"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Clinical_trial_type"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Clinical_trial"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Closed_study"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Recruitment_status"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Combination_trial"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Clinical_trial_type"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Community_trial"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Clinical_trial_type"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Composite_outcome_measure"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Clinical_outcome_measure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Controlled_trial"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Experimental_study"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Cross-over_design"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Clinical_trial_design"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Day"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Age_unit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Depression"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Disease_presentation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Descriptive_study"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Study_type"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Disease_outcome"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Clinical_Trial_Readouts"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Disease_presentation"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Phase_VI"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Dose-response_trial"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Clinical_trial_type"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Enrolling_by_invitation"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Closed_study"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Expanded_access"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Quantitative_study_design"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Experimental_study"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Quantitative_study_design"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Explanatory_trial"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Clinical_trial_type"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Factorial_design"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Clinical_trial_design"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Feasibility_study"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Clinical_trial_design"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Group_allocation_design"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Clinical_trial_design"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Historical_observational_cohort"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Retrospective_study"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Hour"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Age_unit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Hybrid_design"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Longitudinal_study"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Identifier"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Informations_of_study"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Instantaneous_study"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Descriptive_study"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#International_site"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Site_selection"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Last_verified_date"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Multicentered_Trials"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Longitudinal_study"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Study_type"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Month"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Age_unit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Multiple_site"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Site_selection"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#N-of-1_clinical_trial"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Clinical_trial_type"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#No_intervention_arm"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Study_arms"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#No_longer_available_for_expanded_access"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Closed_study"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Non-randomized_concurrent_control_study"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Controlled_trial"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Not_yet_recruiting"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Open_study"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Observational_study"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Quantitative_study_design"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Open_study"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Recruitment_status"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#PK_parameter_units_of_measure"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Clinical_Trial_measurement_Units"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Parallel_trial"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Clinical_trial_type"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Percentage_body_weight_gain"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Body_weight_gain"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Peripheral_nerve_injury"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Disease_presentation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Pivotal_trial"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Clinical_trial_design"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Prospective_observational_cohort"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Prospective_study"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Prospective_study"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Longitudinal_study"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Randomized_blinded_block"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#The_Randomized_Blinded_Trial"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Randomized_blinded_cross-over"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#The_Randomized_Blinded_Trial"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Randomized_blinded_factorial"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#The_Randomized_Blinded_Trial"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Randomized_blinded_matched_pairs"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#The_Randomized_Blinded_Trial"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Randomized_blinded_withdrawal_design"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#The_Randomized_Blinded_Trial"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Randomized_control_trial"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Controlled_trial"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Reason_for_treatment"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Treatment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Reason_for_treatment_interruption"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Treatment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Reason_treatment_not_administered"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Treatment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Recruiting"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Open_study"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Recruitment_of_patients"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Study_Conduct_Sub-Domain"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Registration"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Protocol_Representation_Sub-Domain"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Retrospective_study"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Longitudinal_study"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Safety_measure"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Clinical_outcome_measure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Sample_size"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Statistical_concept"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Sequential_trial"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Clinical_trial_type"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Sham_comparator"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Comparator"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Single_site"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Site_selection"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Site_selection"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Study_Conduct_Sub-Domain"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Statistical_concept"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Structure_of_clinical_trial"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Structure_of_clinical_trial"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Clinical_trial"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Study_type"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Clinical_Trial_Study"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Superiority_trial"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Clinical_trial_type"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Surrogate_outcome_measure"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Clinical_outcome_measure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Survey"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Instantaneous_study"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Temporarily_not_available_for_expanded_access"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Closed_study"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Terminal_body_weight"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Body_weight"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Treatment_episode"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Treatment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Treatment_failure_reason"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Treatment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Triple_blind"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Blindness"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Unblinded"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Blindness"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Uncontrolled_trial"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Experimental_study"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Undetermined_stroke"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Stroke"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Unicenter_trial"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Clinical_trial_type"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Water_consumption"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Primary_endpoint_measure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Week"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Age_unit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Year"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Age_unit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#/h"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#PK_parameter_units_of_measure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#fg/mL"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#PK_parameter_units_of_measure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#g/day"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#PK_parameter_units_of_measure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#g/ml"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#PK_parameter_units_of_measure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#ADAS-Cog"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Cognitive_tests"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Abnormal_behavior"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Psychiatric_symptoms"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Active_control"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Control"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Adverse_Event_Action-Taken"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Adverse_Event_Sub-Domain"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Adverse_Event_Outcome_Assessment"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Adverse_Event_Sub-Domain"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Adverse_Event_Sub-Domain"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Clinical_trial"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Adverse_events"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Secondary_endpoint_measure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Age_group"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Inclusion_criteria"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Agitation_test"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Physical_Readouts"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Agreement_to_perform"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Study_administrative_relation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Agreement_to_perform_oversight"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Agreement_to_perform"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Agreement_to_perform_study_laboratory_processing"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Agreement_to_perform"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Agreement_to_perform_study_subject_assessment_or_intervent"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Agreement_to_perform"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Alcohol_addiction"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Psychiatric_symptoms"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Allocation_group_cardinality"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Assignment_characteristics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Allocation_scheme"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Study_characteristics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Amyotrophic_Lateral_Scherosis"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Disease_presentation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Anxiety"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Secondary_endpoint_measure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Anxiety_test"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Physical_Readouts"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Apathy_Evaluation_Scale"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Clinical_trial_methods"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Apathy_test"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Physical_Readouts"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Apparent_dose"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Primary_endpoint_measure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Assessment_Scale-cognitive_subscale"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Clinical_trial_methods"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Assessment_method_specification"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Informations_of_study"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Assignment_characteristics"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Study_characteristics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Attention_test"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Physical_Readouts"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Basic_science"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Primary_purpose"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Bio-alvailability_study"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Clinical_trial_type"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Bio-equivalence_study"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Clinical_trial_type"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Biochemical_biomarkers_identified_in_cerebrospinal_fluid_and_serum"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Biomarkers_in_Neurology"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Biological_Laboratory_variables"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Primary_endpoint_measure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Biological_Readouts"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Clinical_Trial_Readouts"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Biological_Specimen"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Protocol_Representation_Sub-Domain"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Biomarkers_in_Neurology"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Pilot_Trials"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Block_randomization"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Restricted_randomization"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Blood"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Biological_Laboratory_variables"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Body_Fluids"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Molecular_Readouts"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Body_weight"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Primary_endpoint_measure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Brief_summary"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Informations_of_study"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#CSF"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Body_Fluids"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#CSF_Alpha_beta_42_level"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#CSF_markers"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#CSF_concentrations"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Primary_endpoint_measure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#CSF_markers"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Biological_Readouts"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#CSF_total_tau_level"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#CSF_markers"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Cardiac"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Physical_symptoms"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Case-control"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Intervention_model"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Case-crossover_study_design"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Observational_study"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Causal_Assessment"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Adverse_Event_Sub-Domain"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Change_from_baseline"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Secondary_endpoint_measure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Clinical_Dementia_Rating_Scale-sum_of_boxes"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Clinical_trial_methods"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Clinical_Global_Impression_of_Change"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Clinical_trial_methods"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Clinical_Global_Impressions_scale"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Clinical_trial_methods"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Clinical_Trial_Readouts"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Clinical_trial"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Clinical_Trial_measurement_Units"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Structure_of_clinical_trial"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Clinical_biomarkers"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Biomarkers_in_Neurology"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Clinical_event"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Events"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Clinical_imagings"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Clinical_trial_methods"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Clinical_trial_methods"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Clinical_trial"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#CogState"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Cognitive_tests"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Cognitive_Readouts"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Clinical_Trial_Readouts"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Cognitive_tests"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Cognitive_Readouts"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Cohort"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Intervention_model"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Cohort_study_design"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Observational_study"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Committees_for_Multicenter_Clinical_Trials"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Multicentered_Trials"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Comparator"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Study_arms"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Completed"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Closed_study"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Completion_Date"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Informations_of_study"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Computed_tomography"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Clinical_imagings"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Concomitant_Agent"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Study_Conduct_Sub-Domain"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Concomitant_medication"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Exclusion_criteria"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Confidence_interval"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Statistical_significance"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Confusion"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Psychiatric_symptoms"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Control"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Study_design"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Cross-sectional_study_design"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Observational_study"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Crossover_assignment"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Intervention_model"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Crossover_study_design"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Interventional_study_design"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Data_Management_and_Quality_Assurance"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Study_Conduct_Sub-Domain"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Data_analysis_within_experimental_units"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Study_characteristics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Data_analyzed_within_multiple_experimental_units"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Data_analysis_within_experimental_units"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Data_analyzed_within_single_experimental_units"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Data_analysis_within_experimental_units"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Date_of_registration"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Informations_of_study"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Delusion"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Psychiatric_symptoms"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Diabetes"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Exclusion_criteria"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Diagnostic"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Primary_purpose"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Dizziness"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Symptomatic_postural_hypotension"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Double_blind"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Blindness"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Drug_addiction"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Psychiatric_symptoms"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Drug_allergy"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Exclusion_criteria"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Efficacy_study"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Phase_II"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Encephalitis"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Disease_presentation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Epilepsy"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Disease_presentation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Epworth_Sleepiness_Scale"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Clinical_trial_methods"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Estimated_Enrollment"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Informations_of_study"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Ethics_approval_process"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Study_administrative_relation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Evaluated_Activity"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Adverse_Event_Sub-Domain"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Evaluated_Result"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Adverse_Event_Sub-Domain"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Events"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Masking"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Exclusion_criteria"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Recruitment_criteria"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Executive_Functions"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Physical_Readouts"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Experimental"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Study_arms"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Exploratory_Clinical_Trials"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Study_characteristics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Fasted_state"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Food_effect"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Feasibility_assessment"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Primary_endpoint_measure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Fed_state"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Food_effect"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#First_recieved_Date"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Multicentered_Trials"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Fluctuations_in_attention"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Primary_endpoint_measure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Food_effect"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Primary_endpoint_measure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Freezing"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Exclusion_criteria"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Frontotemporal_dementia"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Disease_presentation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Functional_imaging_fMRI"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Biomarkers_in_Neurology"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Funding"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Study_administrative_relation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Gender"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Inclusion_criteria"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Genetic_Brain_disorders"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Disease_presentation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Haemopoietic"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Physical_symptoms"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Hallucination"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Psychiatric_symptoms"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Hazard_ratio"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Statistical_significance"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Health_Services"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Primary_purpose"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Hepatic"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Physical_symptoms"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Hohen_and_Yahr_Scale"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Clinical_trial_methods"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Hydrocephalus"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Disease_presentation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Inclusion_criteria"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Recruitment_criteria"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Informations_of_study"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Structure_of_clinical_trial"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Informed_consent"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Inclusion_criteria"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Inpatient"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Status"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Intervention_assignment_scheme"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Assignment_characteristics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Intervention_model"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Study_design"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Interventional_study_design"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Quantitative_study_design"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Investigator_assignment_role"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Assignment_characteristics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Investigator_assigns_intervention"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Investigator_assignment_role"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Investigator_assigns_no_intervention"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Investigator_assignment_role"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Irritability_test"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Physical_Readouts"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Last_updated_Date"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Multicentered_Trials"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Lewy_body_disease"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Disease_presentation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Magnetic_Resonance_imaging"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Clinical_imagings"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Magnetic_resonance_spectroscopy"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Biomarkers_in_Neurology"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Masking"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Study_design"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Memory_and_learning"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Physical_Readouts"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Mini_Mental_State_Examination"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Clinical_trial_methods"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Minimization"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Restricted_randomization"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Molecular_Readouts"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Clinical_Trial_Readouts"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Mortality_rate"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Clinical_outcome_measure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Multicentered_Trials"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Clinical_trial_type"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Multiple_Sclerosis"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Disease_presentation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Multiple_experimental_unit_allocation_group"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Allocation_group_cardinality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Multiple_regimen"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Regimen_cardinality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#N_of_1_crossover_study_design"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Interventional_study_design"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Neuro-Psychiatric_Inventory"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Clinical_trial_methods"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Neuroimaging_Structural"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Biomarkers_in_Neurology"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Neuropsychiatric_Inventory"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Cognitive_Readouts"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Neuropsychiatric_Test_Battery"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Cognitive_Readouts"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Neuropsychiatric_symptoms"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Primary_endpoint_measure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Neuropsychological_Test_Battery"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Clinical_trial_methods"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Non_random_allocation"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Allocation_scheme"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Number_of_responders"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Secondary_endpoint_measure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Observation"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Clinical_event"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Official_title_of_trial_study"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Informations_of_study"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Open_label"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Masking"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Outpatient"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Status"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#P-Values"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Statistical_significance"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Parallel_Assignment"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Intervention_model"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Parallel_group_study_design"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Interventional_study_design"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Parkinson_disease"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Disease_presentation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Pet_scan"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Clinical_imagings"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Pharmacodynamic_study"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Phase_I"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Pharmacokinetic_study"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Phase_I"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Phase_I"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Study_phases"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Phase_II"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Study_phases"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Phase_III"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Study_phases"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Phase_O"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Study_phases"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Phase_VI"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Study_phases"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Phase_not_applicable"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Study_phases"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Physical_Readouts"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Clinical_Trial_Readouts"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Physical_examinations"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Primary_endpoint_measure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Physical_symptoms"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Exclusion_criteria"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Pilot_Trials"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Clinical_trial_design"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Placebo"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Control"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Placebo_comparator"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Comparator"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Plasma"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Body_Fluids"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Plasma_concentration"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Primary_endpoint_measure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Plasma_markers"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Biological_Readouts"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Pregnancy"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Exclusion_criteria"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Prevention"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Primary_purpose"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Primary_completion_Date"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Multicentered_Trials"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Primary_endpoint_measure"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Clinical_outcome_measure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Primary_purpose"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Study_design"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Prion_diseases"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Disease_presentation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Protocol_Representation_Sub-Domain"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Study_Conduct_Sub-Domain"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Psychiatric_symptoms"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Exclusion_criteria"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Qualitative_study_design"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Descriptive_study"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Quality_of_life"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Secondary_endpoint_measure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Quantitative_study_design"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Analytical_study"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Quasi_random_allocation"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Allocation_scheme"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Radiography"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Clinical_imagings"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Random_allocation"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Allocation_scheme"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Randomized_to_active_treatment"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Experimental"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Rate_of_institutionalization"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Clinical_outcome_measure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Recruitment_active"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Closed_study"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Recruitment_criteria"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Recruitment_of_patients"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Recruitment_status"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Recruitment_of_patients"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Regimen_cardinality"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Assignment_characteristics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Regulatory_Application"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Regulatory_Sub-Domain"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Regulatory_Application_Sponsor"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Regulatory_Sub-Domain"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Regulatory_Assessment"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Regulatory_Sub-Domain"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Regulatory_Sub-Domain"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Study_Conduct_Sub-Domain"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Regulatory_Submission"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Regulatory_Sub-Domain"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Renal"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Physical_symptoms"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Resting_state_functional_network_activity"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Neuropsychiatric_symptoms"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Restricted_randomization"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Random_allocation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Reviewable_Unit"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Submission_Unit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Safety_of_the_treatment"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Primary_endpoint_measure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Safety_study"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Phase_I"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Scale_for_Depression"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Secondary_endpoint_measure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Screening"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Primary_purpose"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Secondary_endpoint_measure"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Clinical_outcome_measure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Seizures"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Psychiatric_symptoms"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Sever_Impairment_Battery"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Clinical_trial_methods"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Simple_randomization"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Random_allocation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Single_Group_Assignment"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Intervention_model"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Single_blind"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Blindness"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Single_experimental_unit_allocation_group"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Allocation_group_cardinality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Single_group_study_design"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Interventional_study_design"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Single_regimen"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Regimen_cardinality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Sleep_disturbance_test"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Physical_Readouts"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Spinal_muscular_atrophy"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Disease_presentation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Sponsoring"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Study_administrative_relation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Standard_Deviation"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Statistical_significance"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Start_Date"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Multicentered_Trials"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Statistical_significance"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Clinical_Trial_measurement_Units"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Status"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Inclusion_criteria"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Stratified_randomization"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Restricted_randomization"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Stratum_Group"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Protocol_Representation_Sub-Domain"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Stroke"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Disease_presentation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Study_Conduct_Sub-Domain"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Clinical_trial"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Study_Investigator"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Protocol_Representation_Sub-Domain"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Study_Legal_Sponsor"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Study_Objective"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Study_Objective"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Protocol_Representation_Sub-Domain"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Study_Protocol_Document"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Protocol_Representation_Sub-Domain"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Study_Resource"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Study_contact"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Study_Site"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Study_Conduct_Sub-Domain"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Study_administrative_relation"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Events"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Study_arms"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Structure_of_clinical_trial"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Study_characteristics"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Structure_of_clinical_trial"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Study_contact"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Protocol_Representation_Sub-Domain"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Study_design"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Clinical_trial_design"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Study_phases"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Clinical_trial"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Submission_Unit"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Regulatory_Sub-Domain"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Supportive_Care"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Primary_purpose"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Suspended_study"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Closed_study"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Symptomatic_postural_hypotension"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Exclusion_criteria"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Syncope"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Symptomatic_postural_hypotension"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Terminated_study"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Closed_study"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#The_Randomized_Blinded_Trial"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Randomized_control_trial"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Timing_of_outcome_measurement"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Study_characteristics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Toxicological_tests"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Secondary_endpoint_measure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Treatment"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Primary_purpose"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Ultrasound"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Clinical_imagings"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Uncontrolled"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Control"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Urine"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Biological_Laboratory_variables"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Video_movement_analysis"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Secondary_endpoint_measure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Vital_signs"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Primary_endpoint_measure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Walk_test"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Physical_Readouts"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Withdrawn_study"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Closed_study"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#_Pittsburgh_Agitation_Scale"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Clinical_trial_methods"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#ml"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#PK_parameter_units_of_measure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#18-69_years"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Age_group"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#18-N/A_years"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Age_group"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#50-80_years"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Age_group"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Alzheimer&apos;s_disease"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Disease_presentation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Friedreich&apos;s_ataxia"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Disease_presentation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Huntington&apos;s_disease"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Disease_presentation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#mg/dl"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#PK_parameter_units_of_measure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#ng/l"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#PK_parameter_units_of_measure"/>
+    </SubClassOf>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8) https://github.com/owlcs/owlapi -->
+
